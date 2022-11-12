@@ -4,7 +4,7 @@ require 'simplecov'
 SimpleCov.start
 
 require 'spec_helper'
-require 'spec/support/factory_bot.rb'
+require 'support/factory_bot'
 
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
@@ -70,9 +70,15 @@ RSpec.configure do |config|
   config.include FactoryBot::Syntax::Methods
 
   VCR.configure do |c|
-  c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-  c.hook_into :webmock
-end
+    c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+    c.hook_into :webmock
+    c.before_record do |i|
+      i.response.body.force_encoding('UTF-8')
+    end
+    c.filter_sensitive_data('<app_id>') { ENV['edamam_app_id'] }
+    c.filter_sensitive_data('<app_key>') { ENV['edamam_app_key'] }
+    c.configure_rspec_metadata!
+  end
 
 end
 Shoulda::Matchers.configure do |config|
