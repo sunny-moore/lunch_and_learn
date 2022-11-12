@@ -1,10 +1,7 @@
 class Country
-  attr_reader :country_list
+  attr_reader :name
   
   def initialize(data)
-    @country_list = []
-    data.each do |country|
-      @country_list << country[:name][:common]
-    end
+    @name = data[0][:name][:common]
   end
 end
