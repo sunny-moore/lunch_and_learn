@@ -1,0 +1,215 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.geoapify.com/v2/places?apiKey=ba77f4ee5a124bfa9537cba16a7b0266&categories=tourism.sights&filter=circle:24.1,56.95,20000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 14 Nov 2022 17:18:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Api-Version:
+      - '1.0'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - accept, accept-language, content-language, access-control-max-age, access-control-allow-headers,
+        access-control-allow-methods, access-control-allow-origin, allow, api-version,
+        cf-ray, content-encoding, content-type, date, expect-ct, server, status, vary,
+        cache-control, etag, last-modified, expires, host, cf-ipcountry, cdn-loop,
+        accept-encoding, x-forwarded-for, x-forwarded-proto, cf-visitor, user-agent,
+        cf-connecting-ip, cf-pseudo-ipv4, x-forwarded-port
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS, PUT
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      Cache-Control:
+      - private, max-age=0, no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=C0BM9tcGwFX%2B2pXxbLoLDJAYi5HaBqHOGB5OjLg5%2FPGffVZBPEog6l17wrIB58L6Fhe7duAwEcMRVcpBhaLBFx%2BQuckWUaYkMtaw7FcXDOzDK3lHQtHar%2BqOJqBbyCRcyOGKlUZpsvO%2F5iW56iU%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 76a167ed49cdefce-PDX
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Dauderi","housenumber":"7","street":"Zāģeru
+        iela","suburb":"Sarkandaugava","city":"Riga","state":"Vidzeme","postcode":"LV-1005","country":"Latvia","country_code":"lv","lon":24.12400891885733,"lat":57.00392525,"formatted":"Dauderi,
+        Zāģeru iela 7, Riga, LV-1005, Latvia","address_line1":"Dauderi","address_line2":"Zāģeru
+        iela 7, Riga, LV-1005, Latvia","categories":["building","building.historic","building.tourism","entertainment","entertainment.museum","tourism","tourism.sights"],"details":["details","details.building","details.contact","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Dauderi","email":"dauderi@history-museum.lv","phone":"+371-67391780","osm_id":120879122,"name:ru":"Латвийский
+        музей культуры «Даудери»","tourism":"museum","website":"http://www.history-museum.lv","building":"yes","historic":"manor","osm_type":"w","wikidata":"Q4254892","addr:city":"Rīga","wikipedia":"ru:Латвийский
+        музей культуры «Даудери»","addr:street":"Zāģeru iela","addr:country":"LV","opening_hours":"Mo-Su
+        11:00-17:00; Tu off","building:levels":3,"addr:housenumber":7}},"place_id":"51f4ef5ecebf1f3840590677eb3181804c40f00102f901127834070000000092030744617564657269"},"geometry":{"type":"Point","coordinates":[24.124020479372078,57.00394271848022]}},{"type":"Feature","properties":{"name":"Rāmavas
+        Depkina muiža","housenumber":"9","street":"Rāmavas iela","suburb":"Rāmavas
+        muiža","district":"Rāmava","city":"Ķekavas pagasts","county":"Ķekavas novads","state":"Vidzeme","postcode":"LV-2111","country":"Latvia","country_code":"lv","lon":24.157944969488497,"lat":56.889029449999995,"formatted":"Rāmavas
+        Depkina muiža, Rāmavas iela 9, Ķekavas pagasts, LV-2111, Latvia","address_line1":"Rāmavas
+        Depkina muiža","address_line2":"Rāmavas iela 9, Ķekavas pagasts, LV-2111,
+        Latvia","categories":["accommodation","accommodation.hotel","building","building.accommodation","building.historic","building.residential","tourism","tourism.sights"],"details":["details","details.building","details.contact"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Rāmavas
+        Depkina muiža","email":"info@ramavasmuiza.lv","phone":"+371 67916202","osm_id":150039784,"tourism":"hotel","website":"https://www.ramavasmuiza.lv/","building":"residential","historic":"manor","osm_type":"w","addr:street":"Rāmavas
+        iela","addr:country":"LV","addr:village":"Rāmava","addr:district":"Ķekavas
+        novads","addr:postcode":"LV-2111","building:levels":2,"addr:housenumber":9,"addr:subdistrict":"Ķekavas
+        pagasts"}},"place_id":"510e0135bf7028384059d21f2312cb714c40f00102f901e86cf1080000000092031752c4816d61766173204465706b696e61206d7569c5be61"},"geometry":{"type":"Point","coordinates":[24.157970381203135,56.88900973048261]}},{"type":"Feature","properties":{"name":"Anna
+        Ģertrūde Vērmane","street":"Merķeļa iela","suburb":"Centre","city":"Riga","state":"Vidzeme","postcode":"LV-1886","country":"Latvia","country_code":"lv","lon":24.117288,"lat":56.951679,"formatted":"Anna
+        Ģertrūde Vērmane, Merķeļa iela, Riga, LV-1886, Latvia","address_line1":"Anna
+        Ģertrūde Vērmane","address_line2":"Merķeļa iela, Riga, LV-1886, Latvia","categories":["tourism","tourism.sights","tourism.sights.memorial","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Anna
+        Ģertrūde Vērmane","osm_id":2264720024,"name:de":"Wöhrmann-Denkmal","name:ru":"парк
+        Памяти А.Г. Верман","website":"http://www.rigaspieminekli.lv/?lapa=piemineklis&zanrs=1&rajons=6&id=9","historic":"memorial","memorial":"obelisk","osm_type":"n","wikidata":"Q56580436","start_date":1829,"wheelchair":"yes","inscription":"Der
+        Gründerin dieses öffentlichen Gartens weil. Frau Aeltestin Wöhrmann, geb.
+        Ebel","inscription:en":"Memorial ensemble to founder of a park Anna Gertrud
+        Woehrmann (1750-1827)","inscription:lv":"Piemiņas ansamblis parka dibinātājai
+        Annai Ģertrūdei Vērmanei (1750-1827)","inscription:ru":"Ансамбль памяти основательница
+        парка Анны Гертруды Верман (1750-1827)"}},"place_id":"5196361c96061e3840599a25139ed0794c40f00103f90198e2fc8600000000920318416e6e6120c4a265727472c5ab64652056c493726d616e65"},"geometry":{"type":"Point","coordinates":[24.117287999999995,56.95167900023371]}},{"type":"Feature","properties":{"name":"Daugavgrīvas
+        cietoksnis","street":"Birzes iela","suburb":"Daugavgrīva","city":"Riga","state":"Vidzeme","postcode":"LV-1016","country":"Latvia","country_code":"lv","lon":24.0393509,"lat":57.0451801,"formatted":"Daugavgrīvas
+        cietoksnis, Birzes iela, Riga, LV-1016, Latvia","address_line1":"Daugavgrīvas
+        cietoksnis","address_line2":"Birzes iela, Riga, LV-1016, Latvia","categories":["access","access.yes","tourism","tourism.sights","tourism.sights.castle"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Daugavgrīvas
+        cietoksnis","access":"yes","osm_id":5257943276,"name:de":"Dünamünder Schanze","name:pl":"Twierdza
+        Dynemun","name:ru":"Даугавгривская крепость","historic":"castle","osm_type":"n","wikidata":"Q640775","wikipedia":"lv:Daugavgrīvas
+        cietoksnis","start_date":"C17","castle_type":"fortress","opening_hours":"Sa-Su
+        10:00-16:00"}},"place_id":"5172918ce6120a38405980912676c8854c40f00103f901ecd86539010000009203184461756761766772c4ab76617320636965746f6b736e6973"},"geometry":{"type":"Point","coordinates":[24.039350899999995,57.04518010028096]}},{"type":"Feature","properties":{"name":"Trīs
+        brāļi","street":"Mazā Pils iela","suburb":"Old Riga","city":"Riga","state":"Vidzeme","postcode":"LV-1811","country":"Latvia","country_code":"lv","lon":24.10429057212537,"lat":56.950349200000005,"formatted":"Three
+        Brothers, Mazā Pils iela, Riga, LV-1811, Latvia","address_line1":"Three Brothers","address_line2":"Mazā
+        Pils iela, Riga, LV-1811, Latvia","categories":["heritage","tourism","tourism.attraction","tourism.sights"],"details":["details","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Trīs
+        brāļi","image":"https://commons.wikimedia.org/wiki/File:Рыжскія замалёўкі_10.jpg","osm_id":348059067,"name:be":"Тры
+        браты","name:de":"Drei Brüder","name:en":"Three Brothers","name:fr":"Les trois
+        frères","name:lv":"Trīs brāļi","name:ru":"Три брата","tourism":"attraction","heritage":2,"historic":"yes","osm_type":"w","wikidata":"Q282196","wikipedia":"lv:Trīs
+        brāļi","heritage:operator":"vkpai","wikimedia_commons":"Category:Three_Brothers_(Riga)"}},"place_id":"51f6c5fcb2b21a384059fcfaff10a4794c40f00102f901bbf5be140000000092030d5472c4ab73206272c481c4bc69"},"geometry":{"type":"Point","coordinates":[24.10428923293326,56.9503194093613]}},{"type":"Feature","properties":{"name":"Zviedru
+        vārti","street":"Torņa iela","suburb":"Old Riga","city":"Riga","state":"Vidzeme","postcode":"LV-1811","country":"Latvia","country_code":"lv","lon":24.1063783,"lat":56.9514451,"formatted":"Swedish
+        Gate, Torņa iela, Riga, LV-1811, Latvia","address_line1":"Swedish Gate","address_line2":"Torņa
+        iela, Riga, LV-1811, Latvia","categories":["tourism","tourism.sights","tourism.sights.city_gate","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Zviedru
+        vārti","image":"https://upload.wikimedia.org/wikipedia/lv/a/ac/Zviedru_varti_Riga.JPG","osm_id":4220818289,"name:be":"Шведская
+        брама","name:en":"Swedish Gate","name:et":"Rootsi väravad","name:fr":"Porte
+        suédoise","name:ru":"Шведские ворота","historic":"city_gate","osm_type":"n","wikidata":"Q2660396","wikipedia":"lv:Zviedru
+        vārti Vecrīgā","start_date":1689,"wheelchair":"yes"}},"place_id":"510a81b79b3b1b384059b0b8faf3c8794c40f00103f901719394fb0000000092030e5a7669656472752076c481727469"},"geometry":{"type":"Point","coordinates":[24.106378299999996,56.95144510023363]}},{"type":"Feature","properties":{"name":"Sudrabkalniņš","street":"Slokas
+        iela","quarter":"Imanta-2","suburb":"Imanta","city":"Riga","state":"Vidzeme","postcode":"LV-1067","country":"Latvia","country_code":"lv","lon":24.03241431334081,"lat":56.960879899999995,"formatted":"Sudrabkalniņš,
+        Slokas iela, Riga, LV-1067, Latvia","address_line1":"Sudrabkalniņš","address_line2":"Slokas
+        iela, Riga, LV-1067, Latvia","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.artwork","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Sudrabkalniņš","osm_id":-4491826,"historic":"memorial","memorial":"war_memorial","osm_type":"r","wikidata":"Q4445520","wikipedia":"lv:Sudrabkalniņš","start_date":1937,"artist_name":"Kārlis
+        Zāle","inscription":"Rīgas pulka karavīriem Rīgas aizstāvjiem 1919. gadā"}},"place_id":"5116c7cea45108384059b4c61e70fc7a4c40f00101f901328a44000000000092030f5375647261626b616c6e69c586c5a1"},"geometry":{"type":"Point","coordinates":[24.032495785219986,56.96082879545921]}},{"type":"Feature","properties":{"name":"Rīgas
+        Pils","housenumber":"3","street":"Pils laukums","suburb":"Old Riga","city":"Riga","state":"Vidzeme","postcode":"LV-1050","country":"Latvia","country_code":"lv","lon":24.10111079866076,"lat":56.95096495,"formatted":"Riga
+        Castle, Pils laukums 3, Riga, LV-1050, Latvia","address_line1":"Riga Castle","address_line2":"Pils
+        laukums 3, Riga, LV-1050, Latvia","categories":["building","building.historic","building.tourism","tourism","tourism.attraction","tourism.sights","tourism.sights.castle"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Rīgas
+        Pils","osm_id":-1393926,"name:be":"Рыжскі замак","name:de":"Rigaer Schloss","name:en":"Riga
+        Castle","name:fr":"Château de Riga","name:ru":"Рижский замок","tourism":"attraction","building":"castle","historic":"castle","osm_type":"r","wikidata":"Q322183","addr:city":"Rīga","wikipedia":"lv:Rīgas
+        pils","addr:street":"Pils laukums","addr:country":"LV","addr:postcode":"LV-1050","addr:housenumber":3}},"place_id":"5121cc9089c91938405977203490b9794c40f00101f901064515000000000092030b52c4ab6761732050696c73"},"geometry":{"type":"Point","coordinates":[24.100731466151164,56.95097544236426]}},{"type":"Feature","properties":{"name":"Kaķu
+        nams","housenumber":"10","street":"Meistaru iela","suburb":"Old Riga","city":"Riga","state":"Vidzeme","postcode":"LV-1050","country":"Latvia","country_code":"lv","lon":24.108541583267346,"lat":56.950182850000004,"formatted":"Cat
+        House, Meistaru iela 10, Riga, LV-1050, Latvia","address_line1":"Cat House","address_line2":"Meistaru
+        iela 10, Riga, LV-1050, Latvia","categories":["building","building.historic","building.tourism","tourism","tourism.attraction","tourism.sights"],"details":["details","details.building","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Kaķu
+        nams","osm_id":-1307300,"name:en":"Cat House","name:fr":"Maison du Chat","name:lv":"Kaķu
+        nams","name:ru":"Дом с котами","tourism":"attraction","building":"yes","historic":"yes","osm_type":"r","wikidata":"Q2533242","addr:city":"Rīga","wikipedia":"lv:Kaķu
+        nams","addr:street":"Meistaru iela","addr:country":"LV","addr:postcode":"LV-1050","building:levels":5,"addr:housenumber":10}},"place_id":"51a595df0ed71b384059c1c9ac209f794c40f00101f901a4f213000000000092030a4b61c4b775206e616d73"},"geometry":{"type":"Point","coordinates":[24.1087502761708,56.95016869007987]}},{"type":"Feature","properties":{"name":"Uzvaras
+        piemineklis","street":"Bāriņu iela","suburb":"Āgenskalns","city":"Riga","state":"Vidzeme","postcode":"LV-1423","country":"Latvia","country_code":"lv","lon":24.085764530589692,"lat":56.93673405,"formatted":"Victory
+        Memorial to Soviet Army, Bāriņu iela, Riga, LV-1423, Latvia","address_line1":"Victory
+        Memorial to Soviet Army","address_line2":"Bāriņu iela, Riga, LV-1423, Latvia","categories":["tourism","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.monument"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Uzvaras
+        piemineklis","osm_id":42029622,"name:en":"Victory Memorial to Soviet Army","name:lv":"Uzvaras
+        piemineklis","name:ru":"Памятник Освободителям Риги","historic":"monument","osm_type":"w","wikidata":"Q2577054","wikipedia":"lv:Uzvaras
+        piemineklis","inscription":"1941 – 1945","official_name:en":"Monument to the
+        Liberators of Soviet Latvia and Riga from the German Fascist Invaders"}},"place_id":"519210ae2af615384059ba229517e6774c40f00102f9013652810200000000920313557a7661726173207069656d696e656b6c6973"},"geometry":{"type":"Point","coordinates":[24.085787456032058,56.93670935422911]}},{"type":"Feature","properties":{"name":"Latviešu
+        strēlnieku piemineklis","street":"Latviešu strēlnieku laukums","suburb":"Old
+        Riga","city":"Riga","state":"Vidzeme","country":"Latvia","country_code":"lv","lon":24.10576845,"lat":56.946812,"formatted":"Latviešu
+        strēlnieku piemineklis, Latviešu strēlnieku laukums, Riga, Latvia","address_line1":"Latviešu
+        strēlnieku piemineklis","address_line2":"Latviešu strēlnieku laukums, Riga,
+        Latvia","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details","details.artwork","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Latviešu
+        strēlnieku piemineklis","osm_id":85385179,"name:ru":"Памятник латышским стрелкам","historic":"memorial","memorial":"statue","osm_type":"w","wikidata":"Q4290244","wikipedia":"lv:Piemineklis
+        Latviešu strēlniekiem","start_date":1971,"artist_name":"Valdis Albergs","inscription":"Latviešu
+        strēlnieki 1915-1920"}},"place_id":"51d7b221a4131b384059133ab82231794c40f00102f901dbdf1605000000009203214c6174766965c5a17520737472c4936c6e69656b75207069656d696e656b6c6973"},"geometry":{"type":"Point","coordinates":[24.105768449999996,56.94681200023128]}},{"type":"Feature","properties":{"name":"Brīvības
+        piemineklis","street":"Brīvības bulvāris","suburb":"Centre","city":"Riga","state":"Vidzeme","postcode":"LV-1050","country":"Latvia","country_code":"lv","lon":24.11337796571963,"lat":56.95150915,"formatted":"Freedom
+        Monument, Brīvības bulvāris, Riga, LV-1050, Latvia","address_line1":"Freedom
+        Monument","address_line2":"Brīvības bulvāris, Riga, LV-1050, Latvia","categories":["access","access.yes","building","building.historic","tourism","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.monument"],"details":["details","details.building","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Brīvības
+        piemineklis","access":"yes","osm_id":87182656,"name:be":"Помнік Свабоды","name:de":"Freiheitsdenkmal","name:en":"Freedom
+        Monument","name:es":"Monumento a la Libertad","name:fr":"Monument de la Liberté","name:it":"Monumento
+        alla Libertà","name:lt":"Laisvės paminklas","name:pl":"Pomnik wolności","name:pt":"Monumento
+        da Liberdade","name:ro":"Monumentul Libertății","name:ru":"Памятник Свободы","name:zh":"自由纪念碑","building":"yes","historic":"monument","osm_type":"w","wikidata":"Q337179","wikipedia":"lv:Brīvības
+        piemineklis","start_date":"1935-11-18","inscription":"TĒVZEMEI UN BRĪVIBAI","wikipedia:en":"Freedom
+        Monument","building:levels":1}},"place_id":"5114121aef041d38405921167834cb794c40f00102f901404d3205000000009203164272c4ab76c4ab626173207069656d696e656b6c6973"},"geometry":{"type":"Point","coordinates":[24.11335653673639,56.95151382316204]}},{"type":"Feature","properties":{"name":"Rīgas
+        Horālā sinagoga","street":"Gogoļa iela","quarter":"Lastādija","suburb":"Maskavas
+        forštate","city":"Riga","state":"Vidzeme","postcode":"LV-1003","country":"Latvia","country_code":"lv","lon":24.126319757662944,"lat":56.942401000000004,"formatted":"Rīgas
+        Horālā sinagoga, Gogoļa iela, Riga, LV-1003, Latvia","address_line1":"Rīgas
+        Horālā sinagoga","address_line2":"Gogoļa iela, Riga, LV-1003, Latvia","categories":["tourism","tourism.sights","tourism.sights.ruines"],"details":["details.place_of_worship","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Rīgas
+        Horālā sinagoga","osm_id":92054276,"historic":"ruins","osm_type":"w","religion":"jewish","wikidata":"Q1846204","wikipedia":"lv:Rīgas
+        Horālā sinagoga"}},"place_id":"51bb115a885620384059e69cd383a0784c40f00102f90104a37c050000000092031852c4ab67617320486f72c4816cc4812073696e61676f6761"},"geometry":{"type":"Point","coordinates":[24.126320383061948,56.94239852745686]}},{"type":"Feature","properties":{"name":"Salaspils
+        memoriālais ansamblis","street":"Pievedceļš Salaspils memoriālam","suburb":"Mežsargozoli","village":"Mežezeri","city":"Salaspils
+        pagasts","county":"Salaspils novads","state":"Vidzeme","postcode":"LV-2121","country":"Latvia","country_code":"lv","lon":24.301519059008335,"lat":56.87381685,"formatted":"Salaspils
+        memoriālais ansamblis, Pievedceļš Salaspils memoriālam, Salaspils pagasts,
+        LV-2121, Latvia","address_line1":"Salaspils memoriālais ansamblis","address_line2":"Pievedceļš
+        Salaspils memoriālam, Salaspils pagasts, LV-2121, Latvia","categories":["entertainment","entertainment.museum","tourism","tourism.sights","tourism.sights.memorial"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Salaspils
+        memoriālais ansamblis","osm_id":103966372,"surface":"grass","tourism":"museum","historic":"memorial","osm_type":"w","wikidata":"Q4405712"}},"place_id":"514ec22fdb334d384059fb3ab0acdd6f4c40f00102f901a46632060000000092032053616c617370696c73206d656d6f7269c4816c61697320616e73616d626c6973"},"geometry":{"type":"Point","coordinates":[24.301572512779153,56.8739524708271]}},{"type":"Feature","properties":{"name":"Aleksandra
+        vārti","street":"Hanzas iela","suburb":"Centre","city":"Riga","state":"Vidzeme","postcode":"LV-1045","country":"Latvia","country_code":"lv","lon":24.09941867731788,"lat":56.96264825,"formatted":"Aleksandra
+        vārti, Hanzas iela, Riga, LV-1045, Latvia","address_line1":"Aleksandra vārti","address_line2":"Hanzas
+        iela, Riga, LV-1045, Latvia","categories":["building","building.historic","tourism","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.monument"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Aleksandra
+        vārti","osm_id":105514216,"building":"yes","historic":"monument","osm_type":"w","wikidata":"Q4061427"}},"place_id":"515270b98073193840597c997a0f387b4c40f00102f901e8044a0600000000920311416c656b73616e6472612076c481727469"},"geometry":{"type":"Point","coordinates":[24.099418683312543,56.96264832960421]}},{"type":"Feature","properties":{"name":"Anniņmuiža","old_name":"Meinerta
+        muiža","housenumber":"76 k-3","street":"Jūrmalas gatve","quarter":"Imanta-1","suburb":"Imanta","city":"Riga","state":"Vidzeme","postcode":"LV-1058","country":"Latvia","country_code":"lv","lon":24.016018610151963,"lat":56.951777199999995,"formatted":"Anniņmuiža,
+        Jūrmalas gatve 76 k-3, Riga, LV-1058, Latvia","address_line1":"Anniņmuiža","address_line2":"Jūrmalas
+        gatve 76 k-3, Riga, LV-1058, Latvia","categories":["building","building.historic","tourism","tourism.sights"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Anniņmuiža","osm_id":110799031,"name:de":"Annenhof","building":"yes","historic":"manor","old_name":"Meinerta
+        muiža","osm_type":"w","wikidata":"Q20804065","addr:city":"Rīga","addr:street":"Jūrmalas
+        gatve","inscription":"Anniņmuiža","addr:country":"LV","addr:postcode":"LV-1058","addr:housenumber":"76
+        k-3"}},"place_id":"51573f115c1b04384059d422167ad4794c40f00102f901b7a89a060000000092030c416e6e69c5866d7569c5be61"},"geometry":{"type":"Point","coordinates":[24.016042474947735,56.951796780403726]}},{"type":"Feature","properties":{"name":"Bonaventura
+        muiža","housenumber":"10","street":"Bonaventuras iela","suburb":"Berģi","city":"Riga","state":"Vidzeme","postcode":"LV-1024","country":"Latvia","country_code":"lv","lon":24.26482731114701,"lat":56.99496215,"formatted":"Bonaventura
+        muiža, Bonaventuras iela 10, Riga, LV-1024, Latvia","address_line1":"Bonaventura
+        muiža","address_line2":"Bonaventuras iela 10, Riga, LV-1024, Latvia","categories":["building","building.historic","tourism","tourism.sights"],"details":["details","details.building","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Bonaventura
+        muiža","osm_id":132496246,"alt_name":"Baloža muiža","building":"yes","historic":"manor","osm_type":"w","wikidata":"Q20559257","addr:city":"Rīga","addr:street":"Bonaventuras
+        iela","addr:country":"LV","addr:postcode":"LV-1024","building:levels":2,"addr:housenumber":10}},"place_id":"51451e5a3fcd43384059152b1bcc5a7f4c40f00102f90176bbe50700000000920312426f6e6176656e74757261206d7569c5be61"},"geometry":{"type":"Point","coordinates":[24.26485057783272,56.99495841337754]}},{"type":"Feature","properties":{"name":"Ēbeļmuiža","housenumber":"21","street":"Zaļenieku
+        iela","quarter":"Ziepniekkalns-1","suburb":"Ziepniekkalns","city":"Riga","state":"Vidzeme","postcode":"LV-1058","country":"Latvia","country_code":"lv","lon":24.09811735,"lat":56.906906,"formatted":"Ēbeļmuiža,
+        Zaļenieku iela 21, Riga, LV-1058, Latvia","address_line1":"Ēbeļmuiža","address_line2":"Zaļenieku
+        iela 21, Riga, LV-1058, Latvia","categories":["building","building.historic","tourism","tourism.sights"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Ēbeļmuiža","osm_id":151442309,"building":"yes","historic":"manor","osm_type":"w","wikidata":"Q16412878","addr:city":"Rīga","addr:street":"Zaļenieku
+        iela","addr:country":"LV","addr:postcode":"LV-1058","addr:housenumber":21}},"place_id":"51916bf9371e1938405911baed7e15744c40f00102f90185d306090000000092030cc4926265c4bc6d7569c5be61"},"geometry":{"type":"Point","coordinates":[24.09811735,56.906906000211286]}},{"type":"Feature","properties":{"name":"Dannenšterna
+        nams","housenumber":"21","street":"Mārstaļu iela","suburb":"Old Riga","city":"Riga","state":"Vidzeme","postcode":"LV-1050","country":"Latvia","country_code":"lv","lon":24.10815454561854,"lat":56.945584,"formatted":"Dannenstern
+        House, Mārstaļu iela 21, Riga, LV-1050, Latvia","address_line1":"Dannenstern
+        House","address_line2":"Mārstaļu iela 21, Riga, LV-1050, Latvia","categories":["building","building.historic","tourism","tourism.sights"],"details":["details","details.building","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Dannenšterna
+        nams","osm_id":157821186,"name:de":"Dannensternhaus","name:en":"Dannenstern
+        House","name:ru":"Дом Данненштерна","building":"yes","historic":"building","osm_type":"w","wikidata":"Q1164435","addr:city":"Rīga","wikipedia":"lv:Dannenšterna
+        nams","roof:shape":"gabled","start_date":"1964..1966","addr:street":"Mārstaļu
+        iela","roof:levels":4,"addr:country":"LV","addr:postcode":"LV-1050","building:levels":3,"addr:housenumber":21}},"place_id":"51483a8d35b01b384059331f94eb09794c40f00102f901022968090000000092031244616e6e656ec5a17465726e61206e616d73"},"geometry":{"type":"Point","coordinates":[24.1081574888033,56.94561524136079]}},{"type":"Feature","properties":{"name":"Brekšu
+        muiža","housenumber":"200","street":"Biķernieku iela","suburb":"Orions","village":"Jaunbrunavas","city":"Riga","county":"Ropažu
+        novads","state":"Vidzeme","postcode":"LV-2130","country":"Latvia","country_code":"lv","lon":24.287244652950214,"lat":56.95809395,"formatted":"Brekšu
+        muiža, Biķernieku iela 200, Riga, LV-2130, Latvia","address_line1":"Brekšu
+        muiža","address_line2":"Biķernieku iela 200, Riga, LV-2130, Latvia","categories":["access","access.yes","building","building.historic","tourism","tourism.sights"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Brekšu
+        muiža","access":"permissive","osm_id":163191479,"building":"yes","historic":"manor","osm_type":"w","wikidata":"Q18623035","addr:city":"Rīga","addr:street":"Biķernieku
+        iela","addr:country":"LV","addr:housenumber":200}},"place_id":"5135c13f9e99493840593fc38058a47a4c40f00102f901b71aba090000000092030e4272656bc5a175206d7569c5be61"},"geometry":{"type":"Point","coordinates":[24.28750027710449,56.958140433189776]}}]}'
+  recorded_at: Mon, 14 Nov 2022 17:18:24 GMT
+recorded_with: VCR 6.1.0

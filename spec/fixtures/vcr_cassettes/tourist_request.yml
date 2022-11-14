@@ -1,0 +1,370 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Britain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 14 Nov 2022 18:26:36 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2052'
+    body:
+      encoding: UTF-8
+      string: '[{"name":{"common":"United Kingdom","official":"United Kingdom of Great
+        Britain and Northern Ireland","nativeName":{"eng":{"official":"United Kingdom
+        of Great Britain and Northern Ireland","common":"United Kingdom"}}},"tld":[".uk"],"cca2":"GB","ccn3":"826","cca3":"GBR","cioc":"GBR","independent":true,"status":"officially-assigned","unMember":true,"currencies":{"GBP":{"name":"British
+        pound","symbol":"£"}},"idd":{"root":"+4","suffixes":["4"]},"capital":["London"],"altSpellings":["GB","UK","Great
+        Britain"],"region":"Europe","subregion":"Northern Europe","languages":{"eng":"English"},"translations":{"ara":{"official":"المملكة
+        المتحدة لبريطانيا العظمى وايرلندا الشمالية","common":"المملكة المتحدة"},"bre":{"official":"Rouantelezh-Unanet
+        Breizh-Veur ha Norzhiwerzhon","common":"Rouantelezh-Unanet"},"ces":{"official":"Spojené
+        království Velké Británie a Severního Irska","common":"Spojené království"},"cym":{"official":"United
+        Kingdom of Great Britain and Northern Ireland","common":"United Kingdom"},"deu":{"official":"Vereinigtes
+        Königreich Großbritannien und Nordirland","common":"Vereinigtes Königreich"},"est":{"official":"Suurbritannia
+        ja Põhja-Iiri Ühendkuningriik","common":"Suurbritannia"},"fin":{"official":"Ison-Britannian
+        ja Pohjois-Irlannin yhdistynyt kuningaskunta","common":"Yhdistynyt kuningaskunta"},"fra":{"official":"Royaume-Uni
+        de Grande-Bretagne et d''Irlande du Nord","common":"Royaume-Uni"},"hrv":{"official":"Ujedinjeno
+        Kraljevstvo Velike Britanije i Sjeverne Irske","common":"Ujedinjeno Kraljevstvo"},"hun":{"official":"Nagy-Britannia
+        és Észak-Írország Egyesült Királysága","common":"Egyesült Királyság"},"ita":{"official":"Regno
+        Unito di Gran Bretagna e Irlanda del Nord","common":"Regno Unito"},"jpn":{"official":"グレート·ブリテンおよび北アイルランド連合王国","common":"イギリス"},"kor":{"official":"그레이트브리튼
+        북아일랜드 연합 왕국","common":"영국"},"nld":{"official":"Verenigd Koninkrijk van Groot-Brittannië
+        en Noord-Ierland","common":"Verenigd Koninkrijk"},"per":{"official":"پادشاهی
+        متحد بریتانیای کبیر و ایرلند شمالی","common":"انگلیس"},"pol":{"official":"Zjednoczone
+        Królestwo Wielkiej Brytanii i Irlandii Północnej","common":"Zjednoczone Królestwo"},"por":{"official":"Reino
+        Unido da Grã-Bretanha e Irlanda do Norte","common":"Reino Unido"},"rus":{"official":"Соединенное
+        Королевство Великобритании и Северной Ирландии","common":"Великобритания"},"slk":{"official":"Spojené
+        kráľovstvo Veľkej Británie a SevernéhoÌrska","common":"Veľká Británia (Spojené
+        kráľovstvo)"},"spa":{"official":"Reino Unido de Gran Bretaña e Irlanda del
+        Norte","common":"Reino Unido"},"swe":{"official":"Förenade konungariket Storbritannien
+        och Nordirland","common":"Storbritannien"},"tur":{"official":"Büyük Britanya
+        ve Kuzey İrlanda Birleşik Krallığı","common":"Birleşik Krallık"},"urd":{"official":"مملکتِ
+        متحدہ برطانیہ عظمی و شمالی آئرلینڈ","common":"مملکتِ متحدہ"},"zho":{"official":"大不列颠及北爱尔兰联合王国","common":"英国"}},"latlng":[54.0,-2.0],"landlocked":false,"borders":["IRL"],"area":242900.0,"demonyms":{"eng":{"f":"British","m":"British"},"fra":{"f":"Britannique","m":"Britannique"}},"flag":"\uD83C\uDDEC\uD83C\uDDE7","maps":{"googleMaps":"https://goo.gl/maps/FoDtc3UKMkFsXAjHA","openStreetMaps":"https://www.openstreetmap.org/relation/62149"},"population":67215293,"gini":{"2017":35.1},"car":{"signs":["GB"],"side":"left"},"timezones":["UTC-08:00","UTC-05:00","UTC-04:00","UTC-03:00","UTC-02:00","UTC","UTC+01:00","UTC+02:00","UTC+06:00"],"continents":["Europe"],"flags":{"png":"https://flagcdn.com/w320/gb.png","svg":"https://flagcdn.com/gb.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/gb.png","svg":"https://mainfacts.com/media/images/coats_of_arms/gb.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[51.5,-0.08]},"postalCode":{"format":"@#
+        #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA","regex":"^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$"}}]'
+  recorded_at: Mon, 14 Nov 2022 18:26:36 GMT
+- request:
+    method: get
+    uri: https://api.geoapify.com/v2/places?apiKey=ba77f4ee5a124bfa9537cba16a7b0266&categories=tourism.sights&filter=circle:-0.08,51.5,20000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 14 Nov 2022 18:26:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Api-Version:
+      - '1.0'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - accept, accept-language, content-language, access-control-max-age, access-control-allow-headers,
+        access-control-allow-methods, access-control-allow-origin, allow, api-version,
+        cf-ray, content-encoding, content-type, date, expect-ct, server, status, vary,
+        cache-control, etag, last-modified, expires, host, cf-ipcountry, cdn-loop,
+        accept-encoding, x-forwarded-for, x-forwarded-proto, cf-visitor, user-agent,
+        cf-connecting-ip, cf-pseudo-ipv4, x-forwarded-port
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS, PUT
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      Cache-Control:
+      - private, max-age=0, no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=futU20EGQwklQPzQ9hm96wfGT39DgzeYJy5lscaECEo0wi7TZeebWv47I8nBrwiMM%2FtY%2BiGOAZ2%2FYZcDCer%2FXvIZiV30gjwoioSKVn8NlM1wROmvyiu2lkVsk3mhVseip5TmtVBk14G8Qrz6QdA%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 76a1cbe58861fdbd-PDX
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Brockwell
+        Lido","street":"Dulwich Road","suburb":"Herne Hill","city":"London","county":"Greater
+        London","state":"England","postcode":"SE24 0PA","country":"United Kingdom","country_code":"gb","lon":-0.1064700995055533,"lat":51.4530367,"formatted":"Brockwell
+        Lido, Dulwich Road, London SE24 0PA, United Kingdom","address_line1":"Brockwell
+        Lido","address_line2":"Dulwich Road, London SE24 0PA, United Kingdom","categories":["heritage","sport","sport.sports_centre","tourism","tourism.sights"],"details":["details","details.contact","details.facilities","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Brockwell
+        Lido","owner":"London Borough of Lambeth","sport":"swimming;fitness","osm_id":317411459,"leisure":"sports_centre","toilets":"yes","website":"https://www.fusion-lifestyle.com/centres/Brockwell_Lido","heritage":2,"historic":"building","operator":"Fusion
+        Lifestyle","osm_type":"w","wikidata":"Q4972912","addr:city":"London","wikipedia":"en:Brockwell
+        Lido","start_date":1937,"addr:street":"Dulwich Road","addr:suburb":"Herne
+        Hill","description":"Brockwell Lido has an open air swimming pool, gym facilities,
+        health suite including physiotherapy treatment rooms and the Lido Cafe","ref:GB:nhle":1390519,"addr:postcode":"SE24
+        0PA","contact:phone":"+44 20 7274 3088","listed_status":"Grade II","opening_hours":"Mo-Th
+        06:30-20:00;Fr 06:30-19:00;Sa-Su 07:00-18:00;PH 06:30-19:00","toilets:access":"customers","contact:twitter":"@brockwell_lido","contact:facebook":"https://en-gb.facebook.com/brockwelllidouk/","heritage:website":"https://historicengland.org.uk/listing/the-list/list-entry/1390519","toilets:disposal":"flush","heritage:operator":"Historic
+        England","he:inscription_date":"2003-07-16"}},"place_id":"51153512c52d40bbbf597e108999fdb94940f00102f9018350eb120000000092030e42726f636b77656c6c204c69646f"},"geometry":{"type":"Point","coordinates":[-0.10644804059321118,51.45305175011252]}},{"type":"Feature","properties":{"name":"Marble
+        Hill House","street":"Richmond Road","suburb":"St Margarets","town":"Richmond","city":"London
+        Borough of Richmond upon Thames","county":"Greater London","state":"England","postcode":"TW1
+        2NL","country":"United Kingdom","country_code":"gb","lon":-0.31331756275198563,"lat":51.449477,"formatted":"Marble
+        Hill House, Richmond Road, London TW1 2NL, United Kingdom","address_line1":"Marble
+        Hill House","address_line2":"Richmond Road, London TW1 2NL, United Kingdom","categories":["building","building.historic","building.tourism","entertainment","entertainment.museum","heritage","tourism","tourism.sights"],"details":["details","details.building","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Marble
+        Hill House","image":"File:London - April 2009 (3496487723).jpg","HE_ref":1285673,"osm_id":24011012,"tourism":"museum","website":"https://www.english-heritage.org.uk/visit/places/marble-hill-house/","building":"yes","heritage":2,"historic":"building","operator":"English
+        Heritage","osm_type":"w","wikidata":"Q1892426","addr:city":"Twickenham","wikipedia":"en:Marble
+        Hill House","start_date":"C18","addr:street":"Richmond Road","addr:postcode":"TW1
+        2NL","listed_status":"Grade I","opening_hours":"Mar 30-Nov 3","heritage:operator":2,"wikimedia_commons":"Category:Marble
+        Hill House"}},"place_id":"511b074c32650dd4bf59c677127688b94940f00102f90104616e01000000009203114d6172626c652048696c6c20486f757365"},"geometry":{"type":"Point","coordinates":[-0.31331758415045535,51.44947696592094]}},{"type":"Feature","properties":{"name":"Buckingham
+        Palace","street":"Buckingham Gate","suburb":"Victoria","city":"London","county":"Greater
+        London","state":"England","postcode":"SW1A 1AA","country":"United Kingdom","country_code":"gb","lon":-0.14298629208606997,"lat":51.500841300000005,"formatted":"Buckingham
+        Palace, Buckingham Gate, London SW1A 1AA, United Kingdom","address_line1":"Buckingham
+        Palace","address_line2":"Buckingham Gate, London SW1A 1AA, United Kingdom","categories":["access_limited","access_limited.with_permit","building","building.historic","building.tourism","tourism","tourism.attraction","tourism.sights","tourism.sights.castle"],"details":["details","details.building","details.contact","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Buckingham
+        Palace","phone":"+44 20 7766 7300","access":"permit","height":23.4,"osm_id":-5208404,"name:af":"Buckingham-paleis","name:ar":"قصر
+        بكنغهام","name:az":"Bukinqem sarayı","name:be":"Бакінгемскі палац","name:bg":"Бъкингамски
+        дворец","name:bn":"বাকিংহাম প্রাসাদ","name:br":"Palez Buckingham","name:bs":"Bakingemska
+        palača","name:ca":"Palau de Buckingham","name:cs":"Buckinghamský palác","name:cy":"Palas
+        Buckingham","name:da":"Buckingham Palace","name:de":"Buckingham-Palast","name:el":"Ανάκτορα
+        του Μπάκινγκχαμ","name:en":"Buckingham Palace","name:eo":"Palaco Buckingham","name:es":"Palacio
+        de Buckingham","name:et":"Buckinghami palee","name:eu":"Buckingham jauregia","name:fa":"کاخ
+        باکینگهام","name:fi":"Buckinghamin palatsi","name:fr":"Palais de Buckingham","name:fy":"Buckingham
+        Palace","name:ga":"Pálás Buckingham","name:gl":"Palacio de Buckingham","name:gu":"બકિંગહામ
+        પેલેસ","name:he":"ארמון בקינגהאם","name:hi":"बकिंघम पैलेस","name:hr":"Buckinghamska
+        palača","name:hu":"Buckingham-palota","name:hy":"Բուքինգհեմյան պալատ","name:id":"Istana
+        Buckingham","name:is":"Buckinghamhöll","name:it":"Buckingham Palace","name:ja":"バッキンガム宮殿","name:jv":"Kedhaton
+        Buckingham","name:ka":"ბაკინგემის სასახლე","name:kk":"Букингем сарайы","name:kn":"ಬಕಿಂಗ್ಹ್ಯಾಮ್
+        ಅರಮನೆ","name:ko":"버킹엄 궁전","name:lv":"Bakingemas pils","name:mk":"Бакингемска
+        палата","name:ml":"ബക്കിങ്ങാം കൊട്ടാരം","name:mr":"बकिंगहॅम राजवाडा","name:ms":"Istana
+        Buckingham","name:ne":"बकिङ्घम राजदरबार","name:nl":"Buckingham Palace","name:nn":"Buckingham
+        Palace","name:no":"Buckingham Palace","name:pl":"Buckingham Palace","name:pt":"Palácio
+        de Buckingham","name:ro":"Palatul Buckingham","name:ru":"Букингемский дворец","name:sh":"Buckinghamska
+        palača","name:sk":"Buckinghamský palác","name:sl":"Buckinghamska palača","name:sr":"Бакингамска
+        палата","name:sv":"Buckingham Palace","name:ta":"பக்கிங்காம் அரண்மனை","name:te":"బకింగ్
+        హామ్ పాలెస్","name:th":"พระราชวังบักกิงแฮม","name:tl":"Palasyo ng Buckingham","name:tr":"Buckingham
+        Sarayı","name:tt":"Букингем сарае","name:uk":"Букінгемський палац","name:ur":"بکنگھم
+        محل","name:vi":"Cung điện Buckingham","name:yi":"באקינגהאם פאלאץ","name:zh":"白金汉宫","tourism":"attraction","building":"palace","historic":"castle","name:ast":"Palaciu
+        de Buckingham","name:ban":"Buckingham Palace","name:hak":"Buckingham Kiûng","name:mai":"बकिङ्घम
+        प्यालेस","name:pms":"Buckingham Palace","name:pnb":"بکنگھم محل","name:sco":"Buckingham
+        Pailace","name:vec":"Pałaso de Buckingham","name:war":"Palasyo han Buckingham","name:wuu":"白金汉宫","name:yue":"白金漢宮","osm_type":"r","wikidata":"Q42182","addr:city":"London","wikipedia":"en:Buckingham
+        Palace","castle_type":"palace","addr:postcode":"SW1A 1AA","name:be-x-old":"Бэкінггэмскі
+        палац","opening_hours":"Mo-Su 10:00-17:30","addr:housename":"Buckingham Palace","building:colour":"#e7e3d9"}},"place_id":"5121149933313ec2bf590978e1201ac04940f00101f90154794f00000000009203114275636b696e6768616d2050616c616365"},"geometry":{"type":"Point","coordinates":[-0.14252295512611204,51.50079737672065]}},{"type":"Feature","properties":{"name":"Royal
+        Courts of Justice","street":"Strand","neighbourhood":"St Clement Danes","suburb":"Holborn","city":"London","county":"Greater
+        London","state":"England","postcode":"WC2A 2LL","country":"United Kingdom","country_code":"gb","lon":-0.11347677488453559,"lat":51.51419575,"formatted":"Royal
+        Courts of Justice, Strand, London WC2A 2LL, United Kingdom","address_line1":"Royal
+        Courts of Justice","address_line2":"Strand, London WC2A 2LL, United Kingdom","categories":["building","building.historic","building.public_and_civil","building.tourism","tourism","tourism.attraction","tourism.sights","wheelchair","wheelchair.limited"],"details":["details","details.building","details.contact","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Royal
+        Courts of Justice","osm_id":-2335557,"amenity":"courthouse","name:cs":"Královský
+        soudní dvůr","name:de":"Königliche Gerichtshöfe","name:en":"Royal Courts of
+        Justice","name:es":"Tribunales de Justicia","name:fr":"Cour royale de justice","name:he":"בתי
+        המשפט המלכותיים","name:ja":"王立裁判所","name:ru":"Королевский судный двор","tourism":"attraction","alt_name":"Law
+        Courts","building":"public","historic":"building","int_name":"UK Royal Courts
+        of Justice, London","osm_type":"r","wikidata":"Q609835","addr:city":"London","wikipedia":"en:Royal
+        Courts of Justice","roof:shape":"gabled","short_name":"RCJ","start_date":1882,"wheelchair":"limited","addr:street":"Strand","roof:colour":"black","addr:postcode":"WC2A
+        2LL","contact:phone":"+44 20 7947 6000","opening_hours":"Mo-Fr 09:00-16:30","roof:material":"roof_tiles","addr:housename":"Royal
+        Courts of Justice","building:colour":"white","building:levels":4,"contact:website":"http://www.justice.gov.uk/courts/rcj-rolls-building/rcj","building:material":"stone"}},"place_id":"51f7932a29fcfabcbf59986a1591d0c14940f00101f90145a3230000000000920317526f79616c20436f75727473206f66204a757374696365"},"geometry":{"type":"Point","coordinates":[-0.11320472722088924,51.514177451569765]}},{"type":"Feature","properties":{"name":"Greenwich
+        Park","suburb":"East Greenwich","town":"Greenwich","city":"Royal Borough of
+        Greenwich","county":"Greater London","state":"England","country":"United Kingdom","country_code":"gb","lon":0.0009374420434756798,"lat":51.477228350000004,"formatted":"Greenwich
+        Park, East Greenwich, Greenwich, London, United Kingdom","address_line1":"Greenwich
+        Park","address_line2":"East Greenwich, Greenwich, London, United Kingdom","categories":["heritage","leisure","leisure.park","tourism","tourism.sights"],"details":["details","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Greenwich
+        Park","osm_id":4483968,"ref:he":1000174,"leisure":"park","name:ru":"Гринвичский
+        парк","name:uk":"Грінвіцький парк","website":"https://www.royalparks.org.uk/parks/greenwich-park/","heritage":2,"historic":"park","operator":"The
+        Royal Parks","osm_type":"w","wikidata":"Q929586","wikipedia":"en:Greenwich
+        Park","listed_status":"Grade I","opening_hours":"Jan,Feb,Oct-Dec 06:00-18:00;
+        Apr,Mar,Sep 06:00-20:00; May-Aug 06:00-21:00","heritage:website":"https://historicengland.org.uk/listing/the-list/list-entry/1000174","heritage:operator":"Historic
+        England","operator:wikidata":"Q7761716","operator:wikipedia":"en:The Royal
+        Parks","he:inscription_date":"1987-10-01"}},"place_id":"512ae2037c44af4f3f598a4f742615bd4940f00102f901806b44000000000092030e477265656e77696368205061726b"},"geometry":{"type":"Point","coordinates":[0.0009669384380962033,51.47720795325502]}},{"type":"Feature","properties":{"name":"Cutty
+        Sark","street":"Greenwich Church Street","city":"London","county":"Greater
+        London","state":"England","postcode":"SE10 9BL","country":"United Kingdom","country_code":"gb","lon":-0.009614522428211553,"lat":51.48293295,"formatted":"Cutty
+        Sark, Greenwich Church Street, London SE10 9BL, United Kingdom","address_line1":"Cutty
+        Sark","address_line2":"Greenwich Church Street, London SE10 9BL, United Kingdom","categories":["tourism","tourism.attraction","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.ship","wheelchair","wheelchair.limited"],"details":["details","details.contact","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Cutty
+        Sark","phone":"+44 20 8312 6608","osm_id":25608663,"name:el":"Κάτι Σαρκ","name:en":"Cutty
+        Sark","name:he":"קאטי סארק","name:ru":"Катти Сарк","name:uk":"Катті Сарк","tourism":"attraction","website":"https://www.rmg.co.uk/cuttysark","historic":"ship","operator":"Royal
+        Museums Greenwich","osm_type":"w","wikidata":"Q171255","ship:type":"clipper","wikipedia":"en:Cutty
+        Sark","start_date":1869,"wheelchair":"limited"}},"place_id":"51117f4f55469c83bf5977be16decdbd4940f00102f901d7c186010000000092030a4375747479205361726b"},"geometry":{"type":"Point","coordinates":[-0.009575414160223812,51.48284507856891]}},{"type":"Feature","properties":{"name":"Tower
+        of Church of St Augustine","old_name":"St John","street":"Mare Street","quarter":"Lower
+        Clapton","suburb":"Clapton","city":"London","county":"Greater London","state":"England","postcode":"E8
+        1HR","country":"United Kingdom","country_code":"gb","lon":-0.05450124898396549,"lat":51.54783005,"formatted":"Tower
+        of Church of St Augustine, Mare Street, London E8 1HR, United Kingdom","address_line1":"Tower
+        of Church of St Augustine","address_line2":"Mare Street, London E8 1HR, United
+        Kingdom","categories":["building","building.tourism","man_made","man_made.tower","no_fee","no_fee.no","tourism","tourism.attraction","tourism.attraction.viewpoint","tourism.sights","tourism.sights.tower"],"details":["details","details.building","details.facilities","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"fee":"no","name":"Tower
+        of Church of St Augustine","height":32,"osm_id":38083615,"toilets":"no","tourism":"viewpoint","website":"https://www.staugustinestower.org/","building":"yes","man_made":"tower","old_name":"St
+        John","osm_type":"w","wikidata":"Q7592548","wikipedia":"en:St Augustine''s
+        Tower, Hackney","tower:type":"bell_tower","opening_hours":"Su[-1] 14:00-16:30"}},"place_id":"51a2d4bd2d93e7abbf595f6ada491fc64940f00102f9011f1c45020000000092031f546f776572206f6620436875726368206f6620537420417567757374696e65"},"geometry":{"type":"Point","coordinates":[-0.054501151403124184,51.54782984890766]}},{"type":"Feature","properties":{"name":"Crossbones
+        Garden","old_name":"Crossbones Graveyard","street":"Redcross Way","quarter":"Bankside","suburb":"Borough","city":"London","county":"Greater
+        London","state":"England","postcode":"SE1 1SD","country":"United Kingdom","country_code":"gb","lon":-0.09337265203368061,"lat":51.5038805,"formatted":"Crossbones
+        Garden, Redcross Way, London SE1 1SD, United Kingdom","address_line1":"Crossbones
+        Garden","address_line2":"Redcross Way, London SE1 1SD, United Kingdom","categories":["access","access.yes","leisure","leisure.park","leisure.park.garden","tourism","tourism.sights","tourism.sights.archaeological_site"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Crossbones
+        Garden","access":"yes","osm_id":42784759,"leisure":"garden","historic":"archaeological_site","old_name":"Crossbones
+        Graveyard","operator":"Bankside Open Spaces Trust","osm_type":"w","wikidata":"Q5188236","wikipedia":"en:Cross
+        Bones","opening_hours":"Mo-Fr 12:00-15:00","contact:twitter":"@TheGooseSez","contact:website":"http://www.bost.org.uk/open-places/crossbones-graveyard/"}},"place_id":"514727119340dfb7bf593de950f381c04940f00102f901f7d78c020000000092031143726f7373626f6e65732047617264656e"},"geometry":{"type":"Point","coordinates":[-0.0932503088999087,51.50396577311265]}},{"type":"Feature","properties":{"name":"Dr
+        Johnson''s House","housenumber":"17","street":"Gough Square","suburb":"Blackfriars","city":"City
+        of London","county":"Greater London","state":"England","postcode":"EC4A 3DE","country":"United
+        Kingdom","country_code":"gb","lon":-0.10816606832590445,"lat":51.51490975,"formatted":"Dr
+        Johnson''s House, 17 Gough Square, City of London EC4A 3DE, United Kingdom","address_line1":"Dr
+        Johnson''s House","address_line2":"17 Gough Square, City of London EC4A 3DE,
+        United Kingdom","categories":["building","building.historic","building.tourism","entertainment","entertainment.museum","tourism","tourism.sights"],"details":["details","details.building","details.contact","details.facilities","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Dr
+        Johnson''s House","osm_id":43706245,"toilets":"yes","tourism":"museum","building":"yes","historic":"building","osm_type":"w","wikidata":"Q5304210","addr:city":"London","wikipedia":"en:Dr
+        Johnson''s House","wheelchair":"no","addr:street":"Gough Square","roof:levels":1,"addr:country":"GB","addr:postcode":"EC4A
+        3DE","contact:phone":"+44 20 7353 3745","opening_hours":"Oct-Apr: Mo-Sa 11:00-17:00;
+        May-Sep: Mo-Sa 11:00-17:30","addr:housename":"Dr Johnson''s House","toilets:access":"customers","building:levels":3,"contact:website":"http://www.drjohnsonshouse.org/","addr:housenumber":17}},"place_id":"51747fe83fc6b0bbbf591dfda38ee8c14940f00102f90185e79a02000000009203124472204a6f686e736f6e277320486f757365"},"geometry":{"type":"Point","coordinates":[-0.10816611347445165,51.514909582207316]}},{"type":"Feature","properties":{"name":"The
+        Old Curiosity Shop","housenumber":"13","street":"Portsmouth Street","neighbourhood":"St
+        Clement Danes","suburb":"Holborn","city":"London","county":"Greater London","state":"England","postcode":"WC2A
+        2ES","country":"United Kingdom","country_code":"gb","lon":-0.11732677995525859,"lat":51.514951100000005,"formatted":"The
+        Old Curiosity Shop, 13 Portsmouth Street, London WC2A 2ES, United Kingdom","address_line1":"The
+        Old Curiosity Shop","address_line2":"13 Portsmouth Street, London WC2A 2ES,
+        United Kingdom","categories":["building","building.commercial","building.historic","building.tourism","commercial","commercial.clothing","commercial.clothing.shoes","tourism","tourism.attraction","tourism.sights"],"details":["details","details.building","details.contact","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"The
+        Old Curiosity Shop","shop":"shoes","phone":"+44 20 7405 9891","osm_id":181939036,"tourism":"attraction","building":"retail","historic":"building","osm_type":"w","wikidata":"Q16669711","addr:city":"London","wikipedia":"en:Ye
+        Olde Curiosity Shop","roof:shape":"skillion","wheelchair":"no","addr:street":"Portsmouth
+        Street","inscription":"immortalised by Charles Dickens","roof:colour":"#b56075","addr:postcode":"WC2A
+        2ES","opening_hours":"Mo-Sa 11:00-19:00","building:colour":"white","building:levels":2,"addr:housenumber":13,"building:material":"plaster"}},"place_id":"51c1b5a24a9b08bebf5989b8a0cfe9c14940f00102f9015c2bd80a00000000920316546865204f6c6420437572696f736974792053686f70"},"geometry":{"type":"Point","coordinates":[-0.11731882640989168,51.514947846867535]}},{"type":"Feature","properties":{"name":"The
+        Seven Stars","old_name":"The Leg & Seven Stars","housenumber":"53–54","street":"Carey
+        Street","neighbourhood":"St Clement Danes","suburb":"Holborn","city":"London","county":"Greater
+        London","state":"England","postcode":"WC2A 2JB","country":"United Kingdom","country_code":"gb","lon":-0.11349722262821207,"lat":51.514969449999995,"formatted":"The
+        Seven Stars, 53–54 Carey Street, London WC2A 2JB, United Kingdom","address_line1":"The
+        Seven Stars","address_line2":"53–54 Carey Street, London WC2A 2JB, United
+        Kingdom","categories":["building","building.catering","building.historic","catering","catering.pub","catering.taproom","tourism","tourism.sights","wheelchair","wheelchair.limited"],"details":["details","details.building","details.catering","details.contact","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"food":"yes","name":"The
+        Seven Stars","osm_id":185312889,"amenity":"pub","smoking":"outside","toilets":"yes","building":"yes","historic":"building","old_name":"The
+        Leg & Seven Stars","osm_type":"w","real_ale":"4 or so varying beers","wikidata":"Q15979287","addr:city":"London","roof:shape":"flat","start_date":1602,"wheelchair":"limited","addr:street":"Carey
+        Street","roof:colour":"grey","addr:country":"GB","addr:postcode":"WC2A 2JB","contact:phone":"+44
+        20 7242 8521","opening_hours":"Mo-Sa 11:00-23:00; Su 12:00-22:30","floor:material":"rough_wood","toilets:access":"customers","building:colour":"white","building:levels":2,"contact:website":"http://www.thesevenstars1602.co.uk/","outdoor_seating":"no","addr:housenumber":"53–54","building:material":"brick","construction_date":1602,"toilets:wheelchair":"no","wheelchair:description":"Narrow;
+        toilets upstairs"}},"place_id":"51e75ffcae060fbdbf59940f1a4eeac14940f00102f90179a60b0b0000000092030f54686520536576656e205374617273"},"geometry":{"type":"Point","coordinates":[-0.11351053020587153,51.514962923741365]}},{"type":"Feature","properties":{"name":"The
+        Prospect of Whitby","old_name":"The Pelican;Devil’s Tavern","housenumber":"57","street":"Wapping
+        Wall","quarter":"Ratcliffe","suburb":"Shadwell","city":"London","county":"Greater
+        London","state":"England","postcode":"E1W 3SH","country":"United Kingdom","country_code":"gb","lon":-0.0510741710796513,"lat":51.50707105,"formatted":"The
+        Prospect of Whitby, 57 Wapping Wall, London E1W 3SH, United Kingdom","address_line1":"The
+        Prospect of Whitby","address_line2":"57 Wapping Wall, London E1W 3SH, United
+        Kingdom","categories":["building","building.catering","building.historic","catering","catering.pub","catering.taproom","heritage","internet_access","tourism","tourism.sights"],"details":["details","details.building","details.contact","details.facilities","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"food":"yes","name":"The
+        Prospect of Whitby","phone":"+44 20 7481 1095","osm_id":204148499,"ref:he":1357505,"amenity":"pub","fhrs:id":43871,"toilets":"yes","website":"http://www.taylor-walker.co.uk/pub/prospect-of-whitby-wapping/c8166/","building":"yes","heritage":2,"historic":"building","old_name":"The
+        Pelican;Devil’s Tavern","operator":"Taylor Walker","osm_type":"w","real_ale":6,"wikidata":"Q3924088","addr:city":"London","wikipedia":"en:Prospect
+        of Whitby","addr:street":"Wapping Wall","description":"The Oldest Thames Riverside
+        Tavern and the 2nd oldest tavern in London.","addr:postcode":"E1W 3SH","listed_status":"Grade
+        II","addr:housename":"Prospect of Whitby Public House","toilets:access":"customers","building:levels":2,"internet_access":"wlan","addr:housenumber":57,"heritage:website":"https://historicengland.org.uk/listing/the-list/list-entry/1357505","heritage:operator":"Historic
+        England","he:inscription_date":"1950-12-29"}},"place_id":"510ab9cf404028aabf592c0db5f9e7c04940f00102f901130f2b0c000000009203165468652050726f7370656374206f6620576869746279"},"geometry":{"type":"Point","coordinates":[-0.051088340674924806,51.507079327968626]}},{"type":"Feature","properties":{"name":"St
+        Paul''s Cathedral","street":"Saint Paul''s Church Yard","suburb":"Cheap","city":"City
+        of London","county":"Greater London","state":"England","postcode":"EC4M 8AD","country":"United
+        Kingdom","country_code":"gb","lon":-0.09845055141832956,"lat":51.51378715,"formatted":"St
+        Paul''s Cathedral, Saint Paul''s Church Yard, City of London EC4M 8AD, United
+        Kingdom","address_line1":"St Paul''s Cathedral","address_line2":"Saint Paul''s
+        Church Yard, City of London EC4M 8AD, United Kingdom","categories":["building","building.historic","building.place_of_worship","building.tourism","tourism","tourism.attraction","tourism.sights","tourism.sights.place_of_worship","tourism.sights.place_of_worship.cathedral","wheelchair","wheelchair.limited"],"details":["details","details.building","details.facilities","details.historic","details.payment","details.place_of_worship","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"St
+        Paul''s Cathedral","height":35,"osm_id":369161987,"amenity":"place_of_worship","name:af":"St.
+        Paulus se katedraal","name:en":"St Paul''s Cathedral","name:es":"Catedral
+        de San Pablo","name:fr":"Cathédrale Saint-Paul","name:he":"קתדרלת סנט פול","name:ja":"セントポール大聖堂","name:ko":"세인트
+        폴 대성당","name:lt":"Šv. Pauliaus katedra","name:pl":"Katedra św. Pawła w Londynie","name:uk":"Собор
+        святого Павла","name:zh":"聖保羅大教堂","tourism":"attraction","website":"http://www.stpauls.co.uk/","building":"cathedral","historic":"building","osm_type":"w","religion":"christian","wikidata":"Q173882","addr:city":"London","architect":"Christopher
+        Wren","wikipedia":"en:St Paul''s Cathedral","short_name":"Saint Paul''s","start_date":1711,"wheelchair":"limited","addr:street":"St
+        Paul''s Church Yard","denomination":"anglican","payment:cash":"yes","payment:visa":"yes","addr:postcode":"EC4M
+        8AD","building:part":"no","opening_hours":"Mo-Sa 08:30-16:00","addr:housename":"Saint
+        Paul''s Cathedral","architect:wikidata":"Q170373","payment:mastercard":"yes","dedication:wikidata":"Q9200","wheelchair:description":"Accessible
+        entrance on south side signposted from main west front entrance."}},"place_id":"51015d9463e935b9bf59b7a88c54c3c14940f00102f90103f70016000000009203135374205061756c27732043617468656472616c"},"geometry":{"type":"Point","coordinates":[-0.09847887688771452,51.51377350681417]}},{"type":"Feature","properties":{"name":"Coal
+        House Cafe","housenumber":"226","street":"Lordship Road","neighbourhood":"Brownswood
+        Park","suburb":"Stoke Newington","city":"London","county":"Greater London","state":"England","postcode":"N16
+        5HQ","country":"United Kingdom","country_code":"gb","lon":-0.08787296905276461,"lat":51.56992765,"formatted":"Coal
+        House Cafe, 226 Lordship Road, London N16 5HQ, United Kingdom","address_line1":"Coal
+        House Cafe","address_line2":"226 Lordship Road, London N16 5HQ, United Kingdom","categories":["building","building.catering","building.historic","catering","catering.cafe","heritage","tourism","tourism.sights","vegan","vegetarian"],"details":["details","details.catering","details.facilities","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Coal
+        House Cafe","osm_id":438113981,"amenity":"cafe","cuisine":"sandwiches;coffee_shop","fhrs:id":1000261,"toilets":"yes","website":"http://www.woodberrywetlands.org.uk/","building":"yes","heritage":2,"historic":"building","osm_type":"w","wikidata":"Q26556202","addr:city":"London","diet:vegan":"yes","addr:street":"Lordship
+        Road","description":"Gas house to West of reservoir","ref:GB:nhle":1265631,"addr:postcode":"N16
+        5HQ","listed_status":"Grade II","opening_hours":"Mo-Su 09:00-17:00","diet:vegetarian":"yes","outdoor_seating":"yes","addr:housenumber":226,"heritage:website":"https://historicengland.org.uk/listing/the-list/list-entry/1265631","heritage:operator":"Historic
+        England","he:inscription_date":"1975-02-04"}},"place_id":"51b7b6a4b1d77eb6bf595e548f63f3c84940f00102f901bd161d1a0000000092030f436f616c20486f7573652043616665"},"geometry":{"type":"Point","coordinates":[-0.0878729637813319,51.56992763994707]}},{"type":"Feature","properties":{"name":"Outlook","housenumber":"2","street":"Romford
+        Road","suburb":"West Ham","city":"London","county":"Greater London","state":"England","postcode":"E15
+        4BF","country":"United Kingdom","country_code":"gb","lon":0.004087057835189594,"lat":51.5417097,"formatted":"Outlook,
+        2 Romford Road, London E15 4BF, United Kingdom","address_line1":"Outlook","address_line2":"2
+        Romford Road, London E15 4BF, United Kingdom","categories":["building","building.commercial","building.historic","building.office","heritage","office","office.estate_agent","tourism","tourism.sights"],"details":["details","details.building","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Outlook","office":"estate_agent","osm_id":466093023,"website":"http://www.outlookproperty.com/StratfordOffice.aspx","alt_name":"St
+        John''s House","building":"commercial","heritage":2,"historic":"building","osm_type":"w","wikidata":"Q26485853","addr:city":"London","addr:street":"Romford
+        Road","addr:suburb":"Stratford","ref:GB:nhle":1191112,"addr:postcode":"E15
+        4BF","listed_status":"Grade II","addr:housename":"St. Johns House","building:levels":3,"contact:twitter":"@OutlookEA","contact:website":"http://www.outlookproperty.com/StratfordOffice.aspx","addr:housenumber":2,"contact:facebook":"https://www.facebook.com/OutlookProperty","heritage:website":"https://historicengland.org.uk/listing/the-list/list-entry/1191112","heritage:operator":"Historic
+        England","he:inscription_date":"1978-06-08"}},"place_id":"517551ff7599bd703f59e3b422be56c54940f00102f901df03c81b000000009203074f75746c6f6f6b"},"geometry":{"type":"Point","coordinates":[0.0040870661323036865,51.54170967764528]}},{"type":"Feature","properties":{"name":"Conway
+        Hall","housenumber":"25","street":"Red Lion Square","neighbourhood":"Gray''s
+        Inn","suburb":"Holborn","city":"London","county":"Greater London","state":"England","postcode":"WC1R
+        4RL","country":"United Kingdom","country_code":"gb","lon":-0.11828118182579667,"lat":51.51976105,"formatted":"Conway
+        Hall, 25 Red Lion Square, London WC1R 4RL, United Kingdom","address_line1":"Conway
+        Hall","address_line2":"25 Red Lion Square, London WC1R 4RL, United Kingdom","categories":["building","building.historic","building.public_and_civil","tourism","tourism.sights","wheelchair","wheelchair.limited"],"details":["details","details.building","details.contact","details.facilities","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Conway
+        Hall","email":"events@conwayhall.org.uk","phone":"+44 20 7405 1818","osm_id":475423265,"smoking":"no","website":"https://conwayhall.org.uk/","building":"public","historic":"yes","osm_type":"w","wikidata":"Q1606700","addr:city":"London","wikipedia":"en:Conway
+        Hall Ethical Society","wheelchair":"limited","addr:street":"Red Lion Square","description":"Based
+        in Holborn, Conway Hall is home to leading speakers and artists and is the
+        landmark of London''s independent intellectual, political and cultural life.","addr:postcode":"WC1R
+        4RL","addr:housename":"Conway Hall","building:levels":3,"addr:housenumber":25}},"place_id":"51a4afc3a66f4abebf5903cfc1188bc24940f00102f9012162561c0000000092030b436f6e7761792048616c6c"},"geometry":{"type":"Point","coordinates":[-0.11832330533405738,51.519869894631505]}},{"type":"Feature","properties":{"name":"The
+        Castle Climbing Centre","street":"Green Lanes","neighbourhood":"Brownswood
+        Park","suburb":"Stoke Newington","city":"London","county":"Greater London","state":"England","postcode":"N4
+        2HA","country":"United Kingdom","country_code":"gb","lon":-0.09244058043492276,"lat":51.565289699999994,"formatted":"The
+        Castle Climbing Centre, Green Lanes, London N4 2HA, United Kingdom","address_line1":"The
+        Castle Climbing Centre","address_line2":"Green Lanes, London N4 2HA, United
+        Kingdom","categories":["building","building.historic","building.industrial","building.sport","heritage","sport","sport.sports_centre","tourism","tourism.sights"],"details":["details","details.building","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"The
+        Castle Climbing Centre","sport":"climbing","osm_id":963992061,"leisure":"sports_centre","website":"https://www.castle-climbing.co.uk/","building":"industrial","heritage":2,"historic":"building","material":"brick","osm_type":"w","wikidata":"Q17551191","addr:city":"London","addr:street":"Green
+        Lanes","description":"Engine House of Metropolitan Water Board","ref:GB:nhle":1226755,"addr:postcode":"N4
+        2HA","listed_status":"Grade II*","opening_hours":"Mo-Su 08:00-22:00","addr:housename":"The
+        Castle","building:parts":"vertical","heritage:website":"https://historicengland.org.uk/listing/the-list/list-entry/1226755","heritage:operator":"Historic
+        England","he:inscription_date":"1972-05-16"}},"place_id":"5110db67ab56abb7bf59130f6cb75bc84940f00102f901fd5975390000000092031a54686520436173746c6520436c696d62696e672043656e747265"},"geometry":{"type":"Point","coordinates":[-0.09245816883763447,51.5652989652282]}},{"type":"Feature","properties":{"name":"Royal
+        Botanic Gardens, Kew","street":"Ennerdale Road","suburb":"Kew","city":"London","county":"Greater
+        London","state":"England","postcode":"TW9 3PG","country":"United Kingdom","country_code":"gb","lon":-0.2969337154169749,"lat":51.4781261,"formatted":"Royal
+        Botanic Gardens, Kew, Ennerdale Road, London TW9 3PG, United Kingdom","address_line1":"Royal
+        Botanic Gardens, Kew","address_line2":"Ennerdale Road, London TW9 3PG, United
+        Kingdom","categories":["leisure","leisure.park","leisure.park.garden","tourism","tourism.sights"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Royal
+        Botanic Gardens, Kew","image":"http://commons.wikimedia.org/wiki/File:Kew_Gardens_Palm_House,_London_-_July_2009.jpg","osm_id":-8048808,"leisure":"garden","name:ru":"Королевские
+        сады Кью","website":"https://www.kew.org/","historic":"garden","loc_name":"Kew
+        Gardens","osm_type":"r","wikidata":"Q188617","wikipedia":"en:Kew Gardens","garden:type":"botanical"}},"place_id":"516543ee31ce00d3bf59a7aef7321ebd4940f00101f901a8d07a000000000092031a526f79616c20426f74616e69632047617264656e732c204b6577"},"geometry":{"type":"Point","coordinates":[-0.29692416072889777,51.477484103144256]}},{"type":"Feature","properties":{"name":"St
+        Lawrences''s Church","street":"Brentford High Street","city":"London","county":"Greater
+        London","state":"England","postcode":"TW8 8EW","country":"United Kingdom","country_code":"gb","lon":-0.3101625581925822,"lat":51.482407050000006,"formatted":"St
+        Lawrences''s Church, Brentford High Street, London TW8 8EW, United Kingdom","address_line1":"St
+        Lawrences''s Church","address_line2":"Brentford High Street, London TW8 8EW,
+        United Kingdom","categories":["building","building.historic","building.place_of_worship","heritage","tourism","tourism.sights","tourism.sights.place_of_worship.church"],"details":["details","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"St
+        Lawrences''s Church","image":"https://commons.wikimedia.org/wiki/File:St_Lawrence%27s_Church,_Brentford,_London.jpg","HE_ref":1080302,"osm_id":44885948,"website":"http://brentfordhistory.com/2013/11/05/st-lawrences-church/","building":"church","heritage":2,"historic":"church","osm_type":"w","wikidata":"Q17551897","listed_status":"Grade
+        II*","heritage:operator":"he"}},"place_id":"51216988b7ded9d3bf59bb7f57a9bebd4940f00102f901bce7ac02000000009203155374204c617772656e636573277320436875726368"},"geometry":{"type":"Point","coordinates":[-0.3101727287591008,51.482381026958556]}},{"type":"Feature","properties":{"name":"Tower
+        of London","street":"Tower Hill","neighbourhood":"Tower Liberty","suburb":"Whitechapel","city":"London","county":"Greater
+        London","state":"England","postcode":"EC3N 4AB","country":"United Kingdom","country_code":"gb","lon":-0.07622237194643053,"lat":51.5081201,"formatted":"Tower
+        of London, Tower Hill, London EC3N 4AB, United Kingdom","address_line1":"Tower
+        of London","address_line2":"Tower Hill, London EC3N 4AB, United Kingdom","categories":["tourism","tourism.attraction","tourism.sights","tourism.sights.castle","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Tower
+        of London","image":"http://commons.wikimedia.org/wiki/File:Tower_of_London,_April_2006.jpg","osm_id":370870741,"name:bg":"Лондонска
+        кула","name:en":"Tower of London","name:es":"La Torre de Londres","name:fr":"Tour
+        de Londres","name:ja":"ロンドン塔","name:ko":"런던탑","name:ru":"Тауэр","name:zh":"伦敦塔","tourism":"attraction","website":"https://www.hrp.org.uk/toweroflondon","historic":"castle","osm_type":"w","wikidata":"Q62378","addr:city":"London","wikipedia":"en:Tower
+        of London","wheelchair":"yes","addr:street":"Tower Hill","castle_type":"defensive","addr:postcode":"EC3N
+        4AB","official_name":"Her Majesty''s Royal Palace and Fortress of the Tower
+        of London","wikimedia_commons":"Category:Tower of London","historic:civilization":"medieval","wheelchair:description":"cobblestone
+        pavement"}},"place_id":"516b3e5945217bb3bf592d78e63d0bc14940f00102f901d5091b160000000092030f546f776572206f66204c6f6e646f6e"},"geometry":{"type":"Point","coordinates":[-0.07609756415444628,51.50815557244673]}}]}'
+  recorded_at: Mon, 14 Nov 2022 18:26:45 GMT
+recorded_with: VCR 6.1.0

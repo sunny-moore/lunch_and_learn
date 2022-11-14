@@ -2,14 +2,19 @@ class CountriesService
 
   def self.all_countries
     response = conn.get('all')
-    parsed_json(response)
+    data = parsed_json(response)
   end
-  
+
   def self.one_country(country)
     response = conn.get("name/#{country}")
-    parsed_json(response)
+    if response.status == 404
+      []
+    else
+      data = parsed_json(response)
+      data.take(1)
+    end
   end
-  
+
   def self.parsed_json(response)
     JSON.parse(response.body, symbolize_names: true)
   end
