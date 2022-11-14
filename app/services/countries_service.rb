@@ -3,7 +3,6 @@ class CountriesService
   def self.all_countries
     response = conn.get('all')
     data = parsed_json(response)
-    data.map { |country| country[:name][:common]}
   end
 
   def self.one_country(country)
@@ -12,7 +11,7 @@ class CountriesService
       []
     else
       data = parsed_json(response)
-      temp = data.map { |country| country[:name][:common]}.take(1)
+      data.take(1)
     end
   end
 

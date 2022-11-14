@@ -7,8 +7,8 @@ class RecipeFacade
       []
     else
       response[:hits].map do |recipe|
-      Recipe.new(country, recipe)
+        Recipe.new(country, recipe)
+      end
     end
   end
-
 end
