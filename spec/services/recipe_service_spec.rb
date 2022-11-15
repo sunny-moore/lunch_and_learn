@@ -5,9 +5,9 @@ RSpec.describe 'Recipe Service' do
     it 'connects and returns recipes based on a query', vcr: 'recipe_list' do
       response = RecipeService.recipes('Thailand')
 
-      expect(response).to be_a Hash
-      expect(response[:hits]).to be_a Array
-      expect(response[:hits][0][:recipe]).to include(:label, :image, :url)
+      expect(response).to be_a Array
+      expect(response[0][:recipe].keys).to include(:label, :image, :url)
+      expect(response[0].keys).to_not include(:from, :to, :count)
     end
   end
 end

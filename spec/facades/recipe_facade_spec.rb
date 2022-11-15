@@ -17,5 +17,26 @@ RSpec.describe 'Recipe Facade' do
       expect(recipes[1].country).to eq('Thailand')
       expect(recipes.last.country).to eq('Thailand')
     end
+    it 'can return recipes for a random country', vcr: 'random_country_facade' do
+      recipes = RecipeFacade.random_recipes
+      
+      expect(recipes).to be_a Array
+      expect(recipes[0]).to be_a Recipe
+      expect(recipes.length).to be >= 1
+    end
+  end
+  context 'Sad Path' do
+    it 'will return an empty array if given an empty string', :vcr do
+      recipes = RecipeFacade.recipes('')
+
+      expect(recipes).to be_a Array
+      expect(recipes).to eq([])
+    end
+    it 'will return an empty array if no recipes are found (invalid country name)', :vcr do
+      recipes = RecipeFacade.recipes('chicken')
+
+      expect(recipes).to be_a Array
+      expect(recipes).to eq([])
+    end
   end
 end
