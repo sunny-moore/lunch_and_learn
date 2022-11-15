@@ -78,6 +78,7 @@ RSpec.configure do |config|
     end
     c.filter_sensitive_data('<app_id>') { ENV['edamam_app_id'] }
     c.filter_sensitive_data('<app_key>') { ENV['edamam_app_key'] }
+    c.filter_sensitive_data('<api_key>') { ENV['geoapify_api_key'] }
     c.configure_rspec_metadata!
   end
 

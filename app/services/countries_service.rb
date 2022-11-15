@@ -2,12 +2,14 @@ class CountriesService
 
   def self.all_countries
     response = conn.get('all')
-    data = parsed_json(response)
+    parsed_json(response)
   end
 
+  # allows for a partial match, returning one selection
+  # returns an empty array if no country matches
   def self.one_country(country)
     response = conn.get("name/#{country}")
-    if response.status == 404
+    if response.status != 200
       []
     else
       data = parsed_json(response)

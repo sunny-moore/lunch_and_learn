@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Recipe Request' do
   context 'Happy Path' do
-    xit 'retrieves 20 recipes with a given country', vcr: 'recipe_request' do
+    it 'retrieves 20 recipes with a given country', vcr: 'recipe_request' do
       get api_v1_recipes_path('country' => 'Thailand')
 
       expect(response).to be_successful
@@ -26,7 +26,7 @@ RSpec.describe 'Recipe Request' do
     end
   end
   context 'Sad Path' do
-    xit 'returns recipes with random country if country param not present' do
+    it 'returns recipes with random country if country param not present' do
       VCR.use_cassette('no_country_recipes') do
         get api_v1_recipes_path
       end
@@ -35,12 +35,11 @@ RSpec.describe 'Recipe Request' do
       response_body = JSON.parse(response.body, symbolize_names: true)
       recipes = response_body[:data]
 
-      VCR.use_cassette('all_country_list') do
-        @country_list = CountriesService.all_countries
-      end
-      expect(@country_list).to include(recipes[0][:attributes][:country])
+      expect(recipes).to be_a Array
+      expect(recipes[0].keys).to include(:id, :type, :attributes)
+      expect(recipes[0][:attributes].keys).to include(:title, :image_url, :recipe_url, :country)
     end
-    xit 'returns empty array if country is an empty string', vcr: 'empty_string_recipes' do
+    it 'returns empty array if country is an empty string', vcr: 'empty_string_recipes' do
       get api_v1_recipes_path('country' => '')
       expect(response).to be_successful
 
@@ -49,7 +48,7 @@ RSpec.describe 'Recipe Request' do
 
       expect(recipes).to eq([])
     end
-    xit 'returns empty array if country param returns no country', vcr: 'no_recipes_found' do
+    it 'returns empty array if country param returns no country', vcr: 'no_recipes_found' do
       get api_v1_recipes_path('country' => 'chicken')
 
       expect(response).to be_successful
@@ -59,7 +58,7 @@ RSpec.describe 'Recipe Request' do
 
       expect(recipes).to eq([])
     end
-    xit 'returns empty array if no recipes are found for a country', vcr: 'no_recipes_found' do
+    it 'returns empty array if no recipes are found for a country', vcr: 'no_recipes_found' do
       get api_v1_recipes_path('country' => 'caracao')
 
       expect(response).to be_successful

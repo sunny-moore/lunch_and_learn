@@ -1,8 +1,13 @@
 class RecipeService
   
   def self.recipes(country)
+
     response = conn.get("/api/recipes/v2?type=public&q=#{country}")
-    parsed_json(response)
+    if response[:status] == 400
+      []
+    else
+      parsed_json(response)[:hits]
+    end
   end
 
   def self.parsed_json(response)

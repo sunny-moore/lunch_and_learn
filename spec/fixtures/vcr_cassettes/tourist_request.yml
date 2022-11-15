@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 14 Nov 2022 18:26:36 GMT
+      - Mon, 14 Nov 2022 21:58:28 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -59,10 +59,10 @@ http_interactions:
         ve Kuzey İrlanda Birleşik Krallığı","common":"Birleşik Krallık"},"urd":{"official":"مملکتِ
         متحدہ برطانیہ عظمی و شمالی آئرلینڈ","common":"مملکتِ متحدہ"},"zho":{"official":"大不列颠及北爱尔兰联合王国","common":"英国"}},"latlng":[54.0,-2.0],"landlocked":false,"borders":["IRL"],"area":242900.0,"demonyms":{"eng":{"f":"British","m":"British"},"fra":{"f":"Britannique","m":"Britannique"}},"flag":"\uD83C\uDDEC\uD83C\uDDE7","maps":{"googleMaps":"https://goo.gl/maps/FoDtc3UKMkFsXAjHA","openStreetMaps":"https://www.openstreetmap.org/relation/62149"},"population":67215293,"gini":{"2017":35.1},"car":{"signs":["GB"],"side":"left"},"timezones":["UTC-08:00","UTC-05:00","UTC-04:00","UTC-03:00","UTC-02:00","UTC","UTC+01:00","UTC+02:00","UTC+06:00"],"continents":["Europe"],"flags":{"png":"https://flagcdn.com/w320/gb.png","svg":"https://flagcdn.com/gb.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/gb.png","svg":"https://mainfacts.com/media/images/coats_of_arms/gb.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[51.5,-0.08]},"postalCode":{"format":"@#
         #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA","regex":"^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$"}}]'
-  recorded_at: Mon, 14 Nov 2022 18:26:36 GMT
+  recorded_at: Mon, 14 Nov 2022 21:58:28 GMT
 - request:
     method: get
-    uri: https://api.geoapify.com/v2/places?apiKey=ba77f4ee5a124bfa9537cba16a7b0266&categories=tourism.sights&filter=circle:-0.08,51.5,20000
+    uri: https://api.geoapify.com/v2/places?apiKey=<api_key>&categories=tourism.sights&filter=circle:-0.08,51.5,20000
     body:
       encoding: US-ASCII
       string: ''
@@ -79,7 +79,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 14 Nov 2022 18:26:45 GMT
+      - Mon, 14 Nov 2022 21:58:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -109,13 +109,13 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=futU20EGQwklQPzQ9hm96wfGT39DgzeYJy5lscaECEo0wi7TZeebWv47I8nBrwiMM%2FtY%2BiGOAZ2%2FYZcDCer%2FXvIZiV30gjwoioSKVn8NlM1wROmvyiu2lkVsk3mhVseip5TmtVBk14G8Qrz6QdA%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EC2ceNadY8cvlLeu5SNCTQuZAIVGtAEMYCOkSOGHv%2F6zNHn9ZqvthRHAnydMMbXLLL7UmqLd5nbI5E6dIH0GU9e3RG77yz5H3xavuOwej%2FDSwS1%2F73b5fSlRqOGlW1JFrvsk3BvMbZmmilFr1MM%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 76a1cbe58861fdbd-PDX
+      - 76a3023d7df4fdad-PDX
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -366,5 +366,242 @@ http_interactions:
         4AB","official_name":"Her Majesty''s Royal Palace and Fortress of the Tower
         of London","wikimedia_commons":"Category:Tower of London","historic:civilization":"medieval","wheelchair:description":"cobblestone
         pavement"}},"place_id":"516b3e5945217bb3bf592d78e63d0bc14940f00102f901d5091b160000000092030f546f776572206f66204c6f6e646f6e"},"geometry":{"type":"Point","coordinates":[-0.07609756415444628,51.50815557244673]}}]}'
-  recorded_at: Mon, 14 Nov 2022 18:26:45 GMT
+  recorded_at: Mon, 14 Nov 2022 21:58:38 GMT
+- request:
+    method: get
+    uri: https://api.geoapify.com/v2/places?apiKey=<api_key>&categories=tourism.sights&filter=circle:-2.0,54.0,20000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 14 Nov 2022 22:59:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Api-Version:
+      - '1.0'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - accept, accept-language, content-language, access-control-max-age, access-control-allow-headers,
+        access-control-allow-methods, access-control-allow-origin, allow, api-version,
+        cf-ray, content-encoding, content-type, date, expect-ct, server, status, vary,
+        cache-control, etag, last-modified, expires, host, cf-ipcountry, cdn-loop,
+        accept-encoding, x-forwarded-for, x-forwarded-proto, cf-visitor, user-agent,
+        cf-connecting-ip, cf-pseudo-ipv4, x-forwarded-port
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS, PUT
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      Cache-Control:
+      - private, max-age=0, no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KQaBWk%2FqQDMjCmRZ5Vap5D249NrKwwG6lqCeVNgtJ0QObeoKhURDrEWtYM2IRIONYV9hQyJ1nwyWRWUfW%2BeH3cjPD8xpsa6rHyi%2BTC7lhFHnEhrIjr2HjEjP%2BnrfNXzCQcbSuVlNOBDT1ozSrpc%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 76a35b818d29ef30-PDX
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Manor
+        House Art Gallery and Museum","old_name":"The Castle","street":"Castle Yard","town":"Ilkley","city":"Bradford","county":"West
+        Yorkshire","state":"England","postcode":"LS29 9DT","country":"United Kingdom","country_code":"gb","lon":-1.824759147940865,"lat":53.9268167,"formatted":"Manor
+        House Art Gallery and Museum, Castle Yard, Bradford LS29 9DT, United Kingdom","address_line1":"Manor
+        House Art Gallery and Museum","address_line2":"Castle Yard, Bradford LS29
+        9DT, United Kingdom","categories":["building","building.historic","building.tourism","entertainment","entertainment.museum","no_fee","no_fee.no","tourism","tourism.sights"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"fee":"no","name":"Manor
+        House Art Gallery and Museum","osm_id":4041434,"tourism":"museum","website":"https://www.bradfordmuseums.org/venues/manorhouse","building":"yes","historic":"house","old_name":"The
+        Castle","operator":"Bradford Museums and Galleries","osm_type":"w","wikidata":"Q6751349","addr:city":"Ilkley","wikipedia":"en:Manor
+        House Museum","addr:street":"Castle Yard","description":"17th century manor
+        house on on 14th century site and Roman fort  Now a Local heritage and art
+        museum located in Ilkley''s old Manor House.","addr:postcode":"LS29 9DT"}},"place_id":"51ca3c2af12932fdbf5928436322a2f64a40f00102f901daaa3d00000000009203224d616e6f7220486f757365204172742047616c6c65727920616e64204d757365756d"},"geometry":{"type":"Point","coordinates":[-1.8247470303065705,53.92682294699472]}},{"type":"Feature","properties":{"name":"Cavendish
+        Memorial Fountain","street":"B6160","suburb":"Bolton Abbey","village":"Bolton
+        Abbey","city":"Craven District","county":"North Yorkshire","state":"England","postcode":"BD23
+        6AL","country":"United Kingdom","country_code":"gb","lon":-1.8870981,"lat":53.9863144,"formatted":"Cavendish
+        Memorial Fountain, B6160, Craven District BD23 6AL, United Kingdom","address_line1":"Cavendish
+        Memorial Fountain","address_line2":"B6160, Craven District BD23 6AL, United
+        Kingdom","categories":["tourism","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.monument"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Cavendish
+        Memorial Fountain","osm_id":32823038,"website":"https://www.britishlistedbuildings.co.uk/en-323726-cavendish-memorial-bolton-abbey-north-yo","historic":"monument","osm_type":"n","wikidata":"Q20712039","wikipedia":"en:Cavendish
+        memorial fountain","description":"Memorial to Lord Frederick Charles Cavendish
+        (1836 – 1882), English Liberal politician, murdered in Dublin.","inscription":"This
+        fountain was erectedby electors of the West Riding as a tribute to his memory,
+        Frederick CharlesCavendish Born November XXX. MDCCCXXXVI. Died May VI. MDCCCLXXXII"}},"place_id":"51f27ffdc68d31febf592a08dc8c3ffe4a40f00103f901fed6f4010000000092031b436176656e64697368204d656d6f7269616c20466f756e7461696e"},"geometry":{"type":"Point","coordinates":[-1.8870980999999998,53.986314399182746]}},{"type":"Feature","properties":{"name":"Bolton
+        Priory","street":"B6160","suburb":"Bolton Abbey","village":"Bolton Abbey","city":"Craven
+        District","county":"North Yorkshire","state":"England","postcode":"BD23 6AL","country":"United
+        Kingdom","country_code":"gb","lon":-1.8881836225556303,"lat":53.983787,"formatted":"Bolton
+        Priory, B6160, Craven District BD23 6AL, United Kingdom","address_line1":"Bolton
+        Priory","address_line2":"B6160, Craven District BD23 6AL, United Kingdom","categories":["building","building.historic","building.place_of_worship","building.tourism","tourism","tourism.attraction","tourism.sights","tourism.sights.place_of_worship.church","tourism.sights.ruines"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Bolton
+        Priory","osm_id":93703991,"tourism":"attraction","website":"https://boltonabbey.com/","building":"church","historic":"ruins","osm_type":"w","wikidata":"Q17670883","wikipedia":"en:Bolton
+        Priory","description":"Substantial priory ruins in pleasant river setting"}},"place_id":"515ba0bc52c935febf591ad8cb54ecfd4a40f00102f90137cf95050000000092030d426f6c746f6e205072696f7279"},"geometry":{"type":"Point","coordinates":[-1.8881314498812773,53.98377475694015]}},{"type":"Feature","properties":{"name":"The
+        Skipton Academy","street":"Gargrave Road","town":"Skipton","village":"Thorlby","city":"Craven
+        District","county":"North Yorkshire","state":"England","postcode":"BD23 1UQ","country":"United
+        Kingdom","country_code":"gb","lon":-2.037807467046895,"lat":53.962099,"formatted":"The
+        Skipton Academy, Gargrave Road, Craven District BD23 1UQ, United Kingdom","address_line1":"The
+        Skipton Academy","address_line2":"Gargrave Road, Craven District BD23 1UQ,
+        United Kingdom","categories":["education","education.school","tourism","tourism.sights"],"details":["details","details.contact","details.restrictions"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"The
+        Skipton Academy","email":"admin@theskiptonacademy.co.uk","phone":"+44 1756
+        792 965","osm_id":418367162,"amenity":"school","fhrs:id":292851,"max_age":16,"min_age":11,"website":"http://www.theskiptonacademy.co.uk/","historic":"Aireville
+        School","osm_type":"w","addr:city":"Skipton","addr:street":"Gargrave Road","isced:level":2,"ref:edubase":141179,"addr:country":"GB","addr:postcode":"BD23
+        1UQ"}},"place_id":"5139cade52d94c00c0590f15fa7a22fb4a40f00102f901bac6ef180000000092031354686520536b6970746f6e2041636164656d79"},"geometry":{"type":"Point","coordinates":[-2.0375238870849697,53.9619897576432]}},{"type":"Feature","properties":{"name":"Tree
+        of Life","street":"Snowden Carr Road","city":"Timble","town":"Harrogate","county":"North
+        Yorkshire","state":"England","postcode":"LS21 2NH","country":"United Kingdom","country_code":"gb","lon":-1.7274891,"lat":53.9562824,"formatted":"Tree
+        of Life, Snowden Carr Road, Timble LS21 2NH, United Kingdom","address_line1":"Tree
+        of Life","address_line2":"Snowden Carr Road, Timble LS21 2NH, United Kingdom","categories":["heritage","tourism","tourism.sights","tourism.sights.archaeological_site"],"details":["details","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Tree
+        of Life","osm_id":7297322147,"ref:he":1014304,"name:de":"Lebensbaumfels","website":"http://www.stone-circles.org.uk/stone/treeoflife.htm","alt_name":"Tree
+        Of Life Stone","heritage":2,"historic":"archaeological_site","osm_type":"n","wikidata":"Q15851433","site_type":"petroglyph","wikipedia":"de:Tree
+        Of Life Rock","petroglyph":"cup_and_ring","description":"Ornate probably Bronze
+        Age cup-and-ring stone. Looks like a tree.","official_name":"Tree of Life
+        Rock","historic:period":"bronze-age","heritage:website":"https://historicengland.org.uk/listing/the-list/list-entry/1014304","heritage:operator":"he","he:inscription_date":1996,"historic:civilization":"prehistoric"}},"place_id":"51c2244b9ccba3fbbf59ce1a2f7667fa4a40f00103f901a34cf4b20100000092030c54726565206f66204c696665"},"geometry":{"type":"Point","coordinates":[-1.7274891,53.95628239917788]}},{"type":"Feature","properties":{"name":"Memorial
+        to William Busfeild Ferrand","street":"Harden Road","suburb":"Harden","village":"Harden","city":"Bradford","county":"West
+        Yorkshire","state":"England","postcode":"BD16 1JX","country":"United Kingdom","country_code":"gb","lon":-1.8705632,"lat":53.8478535,"formatted":"Memorial
+        to William Busfeild Ferrand, Harden Road, Bradford BD16 1JX, United Kingdom","address_line1":"Memorial
+        to William Busfeild Ferrand","address_line2":"Harden Road, Bradford BD16 1JX,
+        United Kingdom","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Memorial
+        to William Busfeild Ferrand","osm_id":8238754414,"website":"http://www.friendsofstives.org.uk/history/","historic":"memorial","osm_type":"n","wikipedia":"en:Bingley
+        St Ives"}},"place_id":"51229e91add3edfdbf594259a57686ec4a40f00103f9016e6a11eb010000009203244d656d6f7269616c20746f2057696c6c69616d204275736665696c642046657272616e64"},"geometry":{"type":"Point","coordinates":[-1.8705631999999999,53.84785349916139]}},{"type":"Feature","properties":{"name":"Barden
+        Tower","street":"B6160","suburb":"Barden","city":"Craven District","county":"North
+        Yorkshire","state":"England","postcode":"BD23 6AP","country":"United Kingdom","country_code":"gb","lon":-1.9239598,"lat":54.0107733,"formatted":"Barden
+        Tower, B6160, Craven District BD23 6AP, United Kingdom","address_line1":"Barden
+        Tower","address_line2":"B6160, Craven District BD23 6AP, United Kingdom","categories":["tourism","tourism.attraction","tourism.sights","tourism.sights.castle"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Barden
+        Tower","ruins":"yes","osm_id":27370910,"tourism":"attraction","historic":"castle","osm_type":"n","wikidata":"Q17658872","wikipedia":"en:Barden
+        Tower","castle_type":"stately","description":"12th century Hunting lodge for
+        the Clifford family. Free entry."}},"place_id":"5167193d128ac8febf59b0d6fb0461014b40f00103f9019ea5a1010000000092030c42617264656e20546f776572"},"geometry":{"type":"Point","coordinates":[-1.9239598000000002,54.01077329918678]}},{"type":"Feature","properties":{"name":"Olicana
+        Roman Fort","street":"Castle Hill","town":"Ilkley","city":"Bradford","county":"West
+        Yorkshire","state":"England","postcode":"LS29 9DT","country":"United Kingdom","country_code":"gb","lon":-1.8243326,"lat":53.9270536,"formatted":"Olicana
+        Roman Fort, Castle Hill, Bradford LS29 9DT, United Kingdom","address_line1":"Olicana
+        Roman Fort","address_line2":"Castle Hill, Bradford LS29 9DT, United Kingdom","categories":["tourism","tourism.sights","tourism.sights.archaeological_site"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Olicana
+        Roman Fort","osm_id":28150153,"alt_name":"Verbeia","historic":"archaeological_site","osm_type":"n","wikidata":"Q7086777","wikipedia":"en:Ilkley
+        Roman Fort","description":"Roman fort founded around 80 CE and abandoned late
+        4th or earlier 5th century. \"Olicanan\" may actually not be this fort.","historic:period":"roman"}},"place_id":"51296d60617730fdbf594f0b3db1a9f64a40f00103f9018989ad01000000009203124f6c6963616e6120526f6d616e20466f7274"},"geometry":{"type":"Point","coordinates":[-1.8243326000000002,53.927053599173284]}},{"type":"Feature","properties":{"name":"Grubstones
+        Circle","street":"Occupation Lane","hamlet":"Burley Wood Head","suburb":"Burley","city":"Bradford","county":"West
+        Yorkshire","state":"England","postcode":"LS29 7BB","country":"United Kingdom","country_code":"gb","lon":-1.793779,"lat":53.8985277,"formatted":"Grubstones
+        Circle, Occupation Lane, Bradford LS29 7BB, United Kingdom","address_line1":"Grubstones
+        Circle","address_line2":"Occupation Lane, Bradford LS29 7BB, United Kingdom","categories":["tourism","tourism.sights","tourism.sights.archaeological_site"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Grubstones
+        Circle","osm_id":29457182,"alt_name":"Rumbles Law; Roms Law","historic":"archaeological_site","osm_type":"n","wikidata":"Q14949373","site_type":"megalith","wikipedia":"en:Grubstones","description":"Stone
+        circle. About 11 circle short (50cm or so) stones visible and a further two
+        flat near the centre.","megalith_type":"stone_circle"}},"place_id":"517b06d49b51b3fcbf59863da5f402f34a40f00103f9011e7bc101000000009203114772756273746f6e657320436972636c65"},"geometry":{"type":"Point","coordinates":[-1.7937789999999996,53.89852769916892]}},{"type":"Feature","properties":{"name":"Swastika
+        Stone","street":"Hebers Ghyll Drive","town":"Ilkley","city":"Bradford","county":"West
+        Yorkshire","state":"England","postcode":"LS29 9QG","country":"United Kingdom","country_code":"gb","lon":-1.8561319,"lat":53.91879,"formatted":"Swastika
+        Stone, Hebers Ghyll Drive, Bradford LS29 9QG, United Kingdom","address_line1":"Swastika
+        Stone","address_line2":"Hebers Ghyll Drive, Bradford LS29 9QG, United Kingdom","categories":["tourism","tourism.sights","tourism.sights.archaeological_site"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Swastika
+        Stone","osm_id":29458931,"historic":"archaeological_site","osm_type":"n","wikidata":"Q7653994","wikipedia":"en:Swastika
+        Stone","description":"Most famous of local prehistoric cup and ring stones"}},"place_id":"515afff85cb7b2fdbf59f32a23e99af54a40f00103f901f381c1010000000092030e5377617374696b612053746f6e65"},"geometry":{"type":"Point","coordinates":[-1.8561318999999998,53.918789999171985]}},{"type":"Feature","properties":{"name":"Weston
+        Hall","street":"Church Lane","suburb":"Weston","city":"Harrogate","county":"North
+        Yorkshire","state_district":"West Yorkshire","state":"England","postcode":"LS21
+        2HP","country":"United Kingdom","country_code":"gb","lon":-1.730525901144516,"lat":53.91620435,"formatted":"Weston
+        Hall, Church Lane, Harrogate LS21 2HP, United Kingdom","address_line1":"Weston
+        Hall","address_line2":"Church Lane, Harrogate LS21 2HP, United Kingdom","categories":["building","building.historic","building.residential","tourism","tourism.sights"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Weston
+        Hall","osm_id":32300138,"building":"residential","historic":"house","osm_type":"w","wikidata":"Q17538196"}},"place_id":"51b5fc2a6f3bb0fbbf59b4351ab246f54a40f00102f9016adcec010000000092030b576573746f6e2048616c6c"},"geometry":{"type":"Point","coordinates":[-1.7305254309174363,53.91621996192717]}},{"type":"Feature","properties":{"name":"Tor
+        Dyke","street":"Cam Gill Road","suburb":"Kettlewell with Starbotton","city":"Craven
+        District","county":"North Yorkshire","state":"England","postcode":"BD23 5RP","country":"United
+        Kingdom","country_code":"gb","lon":-2.0302999,"lat":54.1748555,"formatted":"Tor
+        Dyke, Cam Gill Road, Craven District BD23 5RP, United Kingdom","address_line1":"Tor
+        Dyke","address_line2":"Cam Gill Road, Craven District BD23 5RP, United Kingdom","categories":["tourism","tourism.sights"],"details":["details"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Tor
+        Dyke","length":2000,"osm_id":36737018,"cutting":"yes","website":"https://brigantesnation.com/tor-dyke-north-yorkshire","historic":"earthworks","osm_type":"w","description":"Linear
+        earthwork. Attributed to rebel Brigantian chief Venutius AD 52-70 as defence
+        against the Romans."}},"place_id":"5199e9c815253e00c059fcdf8c7c77164b40f00102f901fa8f300200000000920308546f722044796b65"},"geometry":{"type":"Point","coordinates":[-2.0303441717089297,54.175521439348785]}},{"type":"Feature","properties":{"name":"Saint
+        Michael and All Angels","street":"Church Road","suburb":"Linton","village":"Linton","city":"Craven
+        District","county":"North Yorkshire","state":"England","postcode":"BD23 6BQ","country":"United
+        Kingdom","country_code":"gb","lon":-1.9937432287644792,"lat":54.065054599999996,"formatted":"Saint
+        Michael and All Angels, Church Road, Craven District BD23 6BQ, United Kingdom","address_line1":"Saint
+        Michael and All Angels","address_line2":"Church Road, Craven District BD23
+        6BQ, United Kingdom","categories":["building","building.historic","building.place_of_worship","tourism","tourism.sights","tourism.sights.place_of_worship","tourism.sights.place_of_worship.church"],"details":["details.place_of_worship","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Saint
+        Michael and All Angels","osm_id":60807169,"amenity":"place_of_worship","building":"church","historic":"church","osm_type":"w","religion":"christian","wikidata":"Q17535024","denomination":"anglican"}},"place_id":"51bc74244c5fe6ffbf5970c783b553084b40f00102f90101d89f030000000092031c5361696e74204d69636861656c20616e6420416c6c20416e67656c73"},"geometry":{"type":"Point","coordinates":[-1.9937432264626258,54.06505459723019]}},{"type":"Feature","properties":{"name":"All
+        Saints'' Weston","street":"Church Lane","suburb":"Weston","city":"Harrogate","county":"North
+        Yorkshire","state_district":"West Yorkshire","state":"England","postcode":"LS21
+        2HP","country":"United Kingdom","country_code":"gb","lon":-1.7313500499999992,"lat":53.9154776,"formatted":"All
+        Saints'' Weston, Church Lane, Harrogate LS21 2HP, United Kingdom","address_line1":"All
+        Saints'' Weston","address_line2":"Church Lane, Harrogate LS21 2HP, United
+        Kingdom","categories":["building","building.historic","building.place_of_worship","tourism","tourism.sights","tourism.sights.place_of_worship","tourism.sights.place_of_worship.church"],"details":["details.place_of_worship","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"All
+        Saints'' Weston","osm_id":70261237,"amenity":"place_of_worship","building":"church","historic":"church","osm_type":"w","religion":"christian","wikidata":"Q17538201","denomination":"anglican"}},"place_id":"51b4be4e199cb3fbbf59d15bd25e2ef54a40f00102f901f519300400000000920312416c6c205361696e74732720576573746f6e"},"geometry":{"type":"Point","coordinates":[-1.7313500393465064,53.91547761222285]}},{"type":"Feature","properties":{"name":"White
+        Wells","street":"Wells Road","town":"Ilkley","city":"Bradford","county":"West
+        Yorkshire","state":"England","postcode":"LS29 9RF","country":"United Kingdom","country_code":"gb","lon":-1.8217995999999999,"lat":53.9169087,"formatted":"White
+        Wells, Wells Road, Bradford LS29 9RF, United Kingdom","address_line1":"White
+        Wells","address_line2":"Wells Road, Bradford LS29 9RF, United Kingdom","categories":["building","building.catering","building.historic","building.tourism","catering","catering.cafe","tourism","tourism.attraction","tourism.sights"],"details":["details","details.catering","details.facilities","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"White
+        Wells","osm_id":91098717,"amenity":"cafe","fhrs:id":327285,"tourism":"attraction","building":"yes","historic":"baths","osm_type":"w","wikidata":"Q7995526","addr:city":"Ilkley","wikipedia":"en:White
+        Wells","addr:street":"Wells Road","description":"Roman bath. Cafe open on
+        weekends when flag is flying","addr:postcode":"LS29 9RF","outdoor_seating":"yes","opening_hours:covid19":"off"}},"place_id":"5190da5d561726fdbf59232ea6435df54a40f00102f9015d0e6e050000000092030b57686974652057656c6c73"},"geometry":{"type":"Point","coordinates":[-1.821799599999995,53.91690869917172]}},{"type":"Feature","properties":{"name":"Denton
+        Hall","street":"Denton Road","suburb":"Denton","city":"Denton","town":"Harrogate","county":"North
+        Yorkshire","state":"England","postcode":"LS29 0HH","country":"United Kingdom","country_code":"gb","lon":-1.776601011607147,"lat":53.9342591,"formatted":"Denton
+        Hall, Denton Road, Denton LS29 0HH, United Kingdom","address_line1":"Denton
+        Hall","address_line2":"Denton Road, Denton LS29 0HH, United Kingdom","categories":["building","building.commercial","building.historic","tourism","tourism.sights"],"details":["details","details.building","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Denton
+        Hall","osm_id":95776690,"building":"commercial","historic":"building","osm_type":"w","weddings":"yes","wikidata":"Q956599","wikipedia":"en:Denton
+        Hall, Wharfedale","start_date":1778,"description":"Historically the home of
+        the Fairfax family. Ferdinand Fairfax was commander of the parliamentarian
+        forces during the English Civil War..","listed_status":"Grade I"}},"place_id":"512481d8efc36cfcbf59a2b65ab895f74a40f00102f901b26fb5050000000092030b44656e746f6e2048616c6c"},"geometry":{"type":"Point","coordinates":[-1.776554047486635,53.934256595891625]}},{"type":"Feature","properties":{"name":"Mastiles
+        Lane marching camp","street":"Mastiles Lane","suburb":"Malham","city":"Craven
+        District","county":"North Yorkshire","state":"England","postcode":"BD23 4DN","country":"United
+        Kingdom","country_code":"gb","lon":-2.1316420262861477,"lat":54.08524955,"formatted":"Mastiles
+        Lane marching camp, Mastiles Lane, Craven District BD23 4DN, United Kingdom","address_line1":"Mastiles
+        Lane marching camp","address_line2":"Mastiles Lane, Craven District BD23 4DN,
+        United Kingdom","categories":["tourism","tourism.sights","tourism.sights.archaeological_site"],"details":["details","details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Mastiles
+        Lane marching camp","he:ref":1008777,"osm_id":97669965,"website":"https://historicengland.org.uk/listing/the-list/list-entry/1008777","historic":"archaeological_site","osm_type":"w","site_type":"fortification","embankment":"yes","visibility":"0,5
+        m high, 5.2 m wide earth bank.","description":"Temporary marching camp big
+        enough to fit a legion (over 8 hectares), so","accessibility":"Foot and bicycle
+        access from Mastiles Lane goes across it","historic:period":"principate","historic:civilization":"ancient_roman"}},"place_id":"516e865bbd980d01c059b8e4e8d6e80a4b40f00102f9014d53d2050000000092031b4d617374696c6573204c616e65206d61726368696e672063616d70"},"geometry":{"type":"Point","coordinates":[-2.1316389840656518,54.08523069736242]}},{"type":"Feature","properties":{"name":"Farfield
+        Friends Meeting House","street":"Bolton Road","village":"Addingham","city":"Bradford","county":"North
+        Yorkshire","state_district":"West Yorkshire","state":"England","postcode":"LS29
+        0RF","country":"United Kingdom","country_code":"gb","lon":-1.8854073000000033,"lat":53.962198900000004,"formatted":"Farfield
+        Friends Meeting House, Bolton Road, Bradford LS29 0RF, United Kingdom","address_line1":"Farfield
+        Friends Meeting House","address_line2":"Bolton Road, Bradford LS29 0RF, United
+        Kingdom","categories":["building","building.historic","tourism","tourism.sights","tourism.sights.place_of_worship.church"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Farfield
+        Friends Meeting House","osm_id":120560171,"building":"yes","historic":"church","osm_type":"w","wikidata":"Q5435076"}},"place_id":"510b3c52d8a02afebf59341c625529fb4a40f00102f9012b9a2f070000000092031e4661726669656c6420467269656e6473204d656574696e6720486f757365"},"geometry":{"type":"Point","coordinates":[-1.8854072999999996,53.962198899178844]}},{"type":"Feature","properties":{"name":"Swinsty
+        Hall","street":"High Lane","suburb":"Little Timble","city":"Timble","town":"Harrogate","county":"North
+        Yorkshire","state":"England","postcode":"LS21 2NW","country":"United Kingdom","country_code":"gb","lon":-1.7063716340633555,"lat":53.97456585,"formatted":"Swinsty
+        Hall, High Lane, Timble LS21 2NW, United Kingdom","address_line1":"Swinsty
+        Hall","address_line2":"High Lane, Timble LS21 2NW, United Kingdom","categories":["building","building.historic","building.residential","tourism","tourism.sights"],"details":["details","details.building","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Swinsty
+        Hall","osm_id":127308323,"building":"residential","historic":"house","osm_type":"w","wikidata":"Q17538219","description":"Current
+        main building dates from 1575 with original building going back to 1371.","roof:levels":1,"addr:housename":"Swinsty
+        Hall","building:levels":3}},"place_id":"51eced3ac3624dfbbf593ab3b057befc4a40f00102f901239296070000000092030c5377696e7374792048616c6c"},"geometry":{"type":"Point","coordinates":[-1.7063930154971514,53.97455879333434]}},{"type":"Feature","properties":{"name":"St
+        Mary''s Church","street":"Old Church Lane","suburb":"High and Low Bishopside","city":"Pateley
+        Bridge","county":"North Yorkshire","state":"England","postcode":"HG3 5NB","country":"United
+        Kingdom","country_code":"gb","lon":-1.7519775509358102,"lat":54.0853573,"formatted":"St
+        Mary''s Church, Old Church Lane, Pateley Bridge HG3 5NB, United Kingdom","address_line1":"St
+        Mary''s Church","address_line2":"Old Church Lane, Pateley Bridge HG3 5NB,
+        United Kingdom","categories":["tourism","tourism.sights","tourism.sights.place_of_worship","tourism.sights.ruines"],"details":["details.place_of_worship","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"St
+        Mary''s Church","osm_id":252136421,"amenity":"place_of_worship","historic":"ruins","osm_type":"w","religion":"christian","wikidata":"Q17665145"}},"place_id":"51cf41cd110e08fcbf59c65014b0ec0a4b40f00102f901e54b070f000000009203105374204d617279277320436875726368"},"geometry":{"type":"Point","coordinates":[-1.7519665427572482,54.08534813873261]}}]}'
+  recorded_at: Mon, 14 Nov 2022 22:59:26 GMT
 recorded_with: VCR 6.1.0
