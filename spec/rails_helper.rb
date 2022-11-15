@@ -79,6 +79,9 @@ RSpec.configure do |config|
     c.filter_sensitive_data('<app_id>') { ENV['edamam_app_id'] }
     c.filter_sensitive_data('<app_key>') { ENV['edamam_app_key'] }
     c.filter_sensitive_data('<api_key>') { ENV['geoapify_api_key'] }
+    c.filter_sensitive_data('<key>') { ENV['youtube_api_key'] }
+    c.filter_sensitive_data('<client_id>') { ENV['unsplash_access_key'] }
+    c.filter_sensitive_data('<secret_key>') { ENV['unsplash_secret_key'] }
     c.configure_rspec_metadata!
   end
 
