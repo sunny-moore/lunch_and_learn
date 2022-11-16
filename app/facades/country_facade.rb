@@ -1,5 +1,4 @@
 class CountryFacade
-
   def self.country(country)
     response = CountriesService.one_country(country)
     if response == []
@@ -14,7 +13,6 @@ class CountryFacade
 
     list = response.map do |country|
       Country.new(country)
-
     end
     list.sample(1)
   end
