@@ -3,12 +3,12 @@ require 'rails_helper'
 RSpec.describe 'User Requests', :vcr do
   context 'Happy Path' do
     it 'registers a new user' do
-      user_params = ({
+      params = ({
         name: 'Bob Schneider',
         email: 'bob@bobschneider.com'
         })
       headers = {"CONTENT_TYPE" => "application/json"}
-      post api_v1_users_path, headers: headers, params: user_params, as: :json
+      post api_v1_users_path, headers: headers, params: params, as: :json
 
       body = JSON.parse(response.body, symbolize_names: true)
       user = User.last
@@ -26,8 +26,8 @@ RSpec.describe 'User Requests', :vcr do
       expect(body[:data][:attributes][:email]).to eq(user.email)
       expect(body[:data][:attributes]).to_not have_key(:password)
       expect(body[:data][:attributes]).to_not have_key(:password_confirmation)
-      expect(user.name).to eq(user_params[:name])
-      expect(user.email).to eq(user_params[:email])
+      expect(user.name).to eq(params[:name])
+      expect(user.email).to eq(params[:email])
       expect(body[:data][:attributes]).to have_key(:api_key)
       expect(body[:data][:attributes][:api_key]).to be_a String
       expect(body[:data][:attributes][:api_key].length).to eq(30)
