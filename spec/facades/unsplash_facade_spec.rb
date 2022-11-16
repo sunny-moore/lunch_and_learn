@@ -7,6 +7,7 @@ RSpec.describe 'Unsplash Facade' do
 
       expect(unsplash).to be_a Array
       expect(unsplash[0]).to be_a Unsplash
+      expect(unsplash.length).to eq(10)
     end
   end
 end

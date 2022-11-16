@@ -1,5 +1,4 @@
 class RecipeFacade
-
   def self.recipes(country_name)
     country = CountryFacade.country(country_name)
     response =  if country.present?

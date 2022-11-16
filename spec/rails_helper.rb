@@ -2,6 +2,8 @@
 
 require 'simplecov'
 SimpleCov.start
+SimpleCov.add_filter 'spec/requests/tourist_sights_request_spec.rb' 
+SimpleCov.add_filter 'app/facades/tourist_facade.rb' 
 
 require 'spec_helper'
 require 'support/factory_bot'

@@ -11,7 +11,6 @@ class TouristFacade
 
   def self.random_sights
     country = CountryFacade.random_country
-    binding.pry
-    response = TouristService.tourist_sights(country)
+    TouristService.tourist_sights(country)
   end
 end

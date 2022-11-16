@@ -1,10 +1,8 @@
 class YoutubeService
-  
-
   def self.videos(country)
-    response = conn.get('/youtube/v3/search?part=snippet&channelId=UCluQ5yInbeAkkeCndNnUhpw&maxResults=1') do |f|
+    response = conn.get('/youtube/v3/search') do |f|
       f.params['part'] = 'snippet'
-      f.params['channelId'] = "UCluQ5yInbeAkkeCndNnUhpw"
+      f.params['channelId'] = 'UCluQ5yInbeAkkeCndNnUhpw'
       f.params['maxResults'] = 1
       f.params['q'] = country
     end
