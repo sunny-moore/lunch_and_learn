@@ -5,6 +5,7 @@ class Api::V1::UsersController < ApplicationController
     if user.save
       render json: UserSerializer.new(user), status: 201
     elsif User.find_by(email: params[:email])
+      # user.errors.full_messages.to_sentence
       render json: { error: 'This email already exists' }, status: 400
     else
       render json: { error: 'An unknown error occured' }, status: 418

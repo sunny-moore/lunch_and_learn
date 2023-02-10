@@ -1,8 +1,8 @@
 # README
 
-We would like to see a README file included in your project that outlines the learning goals, how someone can clone and set up your application and where they can get their own API keys, and happy path endpoint use.
+This project the backend to a hypothetical recipe app, that will return recipes based on a country that is input.  Users can also 'Learn' about the country entered.  In future I would like to build a front end to be able to utilize this backend.
 
-## Learning Goals ##
+## Learning Goals For Project ##
 - Expose an API that aggregates data from multiple external APIs
 - Expose an API that requires an authentication token
 - Expose an API for CRUD functionality
