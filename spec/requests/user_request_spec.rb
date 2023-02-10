@@ -28,6 +28,7 @@ RSpec.describe 'User Requests', :vcr do
       expect(body[:data][:attributes]).to_not have_key(:password_confirmation)
       expect(user.name).to eq(params[:name])
       expect(user.email).to eq(params[:email])
+      expect(user.api_key).to be_a String
       expect(body[:data][:attributes]).to have_key(:api_key)
       expect(body[:data][:attributes][:api_key]).to be_a String
       expect(body[:data][:attributes][:api_key].length).to eq(30)
